@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import Hero from '../layouts/Hero';
-// import WhyChoose from '../layouts/WhyChoose';
+import WhyChoose from '../layouts/WhyChoose';
 // import Founder from '../layouts/Founder';
 // import Coverage from '../layouts/Coverage';
 // import Stats from '../layouts/Stats';
@@ -20,18 +20,18 @@ const Home = () => {
         </Helmet>
         <main>
             <Hero />
-            {/* <WhyChoose />
-            <Founder />
-            <Coverage />
-            <Stats />
-            <Services />
-            <Conditions />
-            <Journey />
-            <Testimonials />
-            <Trust />
-            <CtaBand />
-            <News />
-            <Contact /> */}
+            <WhyChoose />
+            {/* <Founder /> */}
+            {/* <Coverage /> */}
+            {/* <Stats /> */}
+            {/* <Services /> */}
+            {/* <Conditions /> */}
+            {/* <Journey /> */}
+            {/* <Testimonials /> */}
+            {/* <Trust /> */}
+            {/* <CtaBand /> */}
+            {/* <News /> */}
+            {/* <Contact /> */}
         </main>
         </>
     );
