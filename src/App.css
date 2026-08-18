@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+    --font-display: "Fraunces", serif;
+    --font-body: "Inter", sans-serif;
+    --color-navy: #173B3A;
+    --color-navy-deep: #0F2B2A;
+    --color-teal: #2F7A73;
+    --color-gold: #D4A253;
+    --color-gold-deep: #B8842E;
+    --color-cream: #FAF7F1;
+    --color-cream-dim: #F1ECE1;
+    --color-ink: #22302F;
+    --color-ink-soft: #5B6B69;
+    --color-line: #E3DDCE;
+}
+
+/* base html setup */
+html {
+    scroll-behavior: smooth;
+}
+
+/* typography and body setup */
+body {
+    font-family: var(--font-body);
+    color: var(--color-ink);
+    background: var(--color-cream);
+    /* font smoothing for better readability */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* global keyboard focus state for accessibility (a11y) */
+:focus-visible {
+    outline: 2px solid var(--color-gold-deep);
+    outline-offset: 2px;
+}
+
+/* accessibility: reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* custom scrollbar */
+.no-scrollbar::-webkit-scrollbar { height: 6px; }
+.no-scrollbar::-webkit-scrollbar-thumb { background: var(--color-line); border-radius: 6px; }
