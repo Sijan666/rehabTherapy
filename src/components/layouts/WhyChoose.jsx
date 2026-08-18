@@ -26,7 +26,7 @@ export default function WhyChoose() {
             <h2 className="font-display text-4xl font-light leading-[1.2] text-navy-deep md:text-5xl">
               Why choose Rehab Therapist
             </h2>
-            {/* manual feature list */}
+            {/* feature list */}
             <ul className="mt-10 flex flex-col gap-5">
               <li className="flex items-start gap-4">
                 <span className="mt-1 flex h-6 w-6 flex-none items-center justify-center rounded-full bg-teal/15 text-xs font-bold text-teal">
