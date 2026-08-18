@@ -14,7 +14,6 @@ export default function WhyChoose() {
               alt="rehab therapist visiting a patient at home"
               className="w-full object-cover shadow-[0_20px_45px_-25px_rgba(15,43,42,0.35)]"
             />
-            {/* premium decorative border */}
             <div className="absolute -bottom-6 -left-6 -z-10 h-full w-full border border-line/80" />
           </div>
           {/* content side */}
