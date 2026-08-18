@@ -18,7 +18,6 @@ export default function WhyChoose() {
           </div>
           {/* content side */}
           <div className="flex flex-col justify-center">
-            {/* eyebrow text */}
             <div className="mb-6 inline-flex items-center gap-4 text-xs font-bold uppercase tracking-[0.2em] text-gold-deep">
               <span className="h-px w-8 bg-gold-deep" />
               why rehab therapist
