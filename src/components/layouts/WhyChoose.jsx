@@ -32,7 +32,6 @@ export default function WhyChoose() {
           </div>
           {/* content side */}
           <div className="flex flex-col justify-center">
-            {/* eyebrow heading */}
             <div className="mb-6 inline-flex items-center gap-4 text-xs font-bold uppercase tracking-[0.2em] text-gold-deep">
               <span aria-hidden="true" className="h-px w-8 bg-gold-deep" />
               why rehab therapist
