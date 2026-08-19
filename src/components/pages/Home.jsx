@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet-async';
 import Hero from '../layouts/Hero';
 import WhyChoose from '../layouts/WhyChoose';
 import Founder from '../layouts/Founder';
-// import Coverage from '../layouts/Coverage';
+import Coverage from '../layouts/Coverage';
 // import Stats from '../layouts/Stats';
 // import Services from '../layouts/Services';
 // import Conditions from '../layouts/Conditions';
@@ -22,7 +22,7 @@ const Home = () => {
             <Hero />
             <WhyChoose />
             <Founder />
-            {/* <Coverage /> */}
+            <Coverage />
             {/* <Stats /> */}
             {/* <Services /> */}
             {/* <Conditions /> */}
