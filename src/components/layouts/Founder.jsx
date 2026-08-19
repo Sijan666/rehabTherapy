@@ -44,7 +44,7 @@ export default function Founder() {
                 <span className="text-xs font-bold uppercase tracking-widest text-white/50">nationwide</span>
               </div>
             </div>
-            {/* high contrast cta button */}
+            {/* cta button */}
             <a
               href="https://rehabtherapist.co.uk/about-us/"
               aria-label="learn more about the founder"
