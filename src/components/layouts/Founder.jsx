@@ -33,7 +33,6 @@ export default function Founder() {
             <p className="mt-8 text-base font-light leading-relaxed text-white/70 lg:text-lg">
               Krishna Gundapudi is a seasoned professional neurological physiotherapist with over 25 years of experience. He is leading a dedicated team of expert rehabilitation experts committed to delivering personalised care to clients in their own homes across the UK.
             </p>
-            {/* statistics block for premium feel */}
             <div className="my-10 flex gap-8 border-y border-white/10 py-6">
               <div>
                 <span className="block font-display text-3xl text-gold">25+</span>
