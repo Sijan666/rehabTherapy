@@ -22,7 +22,6 @@ export default function Founder() {
               <span aria-hidden="true" className="h-px w-8 bg-gold" />
               clinical director
             </div>
-            {/* massive clean typography */}
             <h2 className="font-display text-5xl font-light leading-tight text-white lg:text-[70px]">
               Krishna Gundapudi
             </h2>
