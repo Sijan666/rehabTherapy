@@ -17,7 +17,6 @@ export default function Founder() {
           </div>
           {/* text box */}
           <div className="relative z-20 w-full border border-white/10 bg-navy p-10 shadow-[0_30px_60px_-15px_rgba(0,0,0,0.5)] lg:-ml-16 lg:w-7/12 lg:p-20">
-            {/* eyebrow */}
             <div className="mb-6 inline-flex items-center gap-4 text-xs font-bold uppercase tracking-[0.2em] text-gold">
               <span aria-hidden="true" className="h-px w-8 bg-gold" />
               clinical director
