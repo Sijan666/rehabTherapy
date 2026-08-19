@@ -2,7 +2,6 @@ import Container from "../Container";
 
 export default function Coverage() {
   return (
-    // coverage section wrapper
     <section id="locations" className="bg-cream py-24">
       <Container>
         <div className="grid items-center gap-16 md:grid-cols-2">
