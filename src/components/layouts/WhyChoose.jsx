@@ -83,7 +83,7 @@ export default function WhyChoose() {
                 </span>
               </li>
             </ul>
-            {/* cta action with proper aria-label */}
+            {/* cta action */}
             <div className="mt-12">
               <a
                 href="https://rehabtherapist.co.uk/about-us/"
