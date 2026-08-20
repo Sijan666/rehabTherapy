@@ -3,27 +3,18 @@ import Image from "../Image";
 
 export default function Services() {
   return (
-    // white background services section
     <section id="services" className="bg-white py-16 md:py-24">
       <Container>
-        
-        {/* compact header */}
         <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
-          
-          {/* eyebrow */}
           <div className="mb-4 inline-flex items-center gap-3 text-xs font-bold uppercase tracking-[0.2em] text-gold-deep">
             <span aria-hidden="true" className="h-px w-6 bg-gold-deep" />
             what we offer
           </div>
-          
           {/* main title */}
           <h2 className="font-display text-3xl font-light leading-tight text-navy-deep md:text-4xl">
             Our Services
           </h2>
-          
         </div>
-
-        {/* compact manual pills */}
         <div className="mt-10 flex flex-wrap justify-center gap-3">
           <a href="#services" className="cursor-pointer border border-navy-deep/10 bg-transparent px-5 py-2 text-xs font-bold text-navy-deep transition-colors duration-300 hover:border-navy-deep hover:bg-navy-deep hover:text-white">
             Home Visits
@@ -53,10 +44,7 @@ export default function Services() {
             Care Homes
           </a>
         </div>
-
-        {/* clean standard grid with shorter aspect ratio */}
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          
           {/* card 1 */}
           <div className="group flex flex-col border border-navy-deep/10 bg-white transition-colors duration-300 hover:border-gold">
             <div className="aspect-video overflow-hidden border-b border-navy-deep/10">
@@ -75,7 +63,6 @@ export default function Services() {
               </a>
             </div>
           </div>
-
           {/* card 2 */}
           <div className="group flex flex-col border border-navy-deep/10 bg-white transition-colors duration-300 hover:border-gold">
             <div className="aspect-video overflow-hidden border-b border-navy-deep/10">
@@ -94,7 +81,6 @@ export default function Services() {
               </a>
             </div>
           </div>
-
           {/* card 3 */}
           <div className="group flex flex-col border border-navy-deep/10 bg-white transition-colors duration-300 hover:border-gold">
             <div className="aspect-video overflow-hidden border-b border-navy-deep/10">
@@ -113,7 +99,6 @@ export default function Services() {
               </a>
             </div>
           </div>
-
           {/* card 4 */}
           <div className="group flex flex-col border border-navy-deep/10 bg-white transition-colors duration-300 hover:border-gold">
             <div className="aspect-video overflow-hidden border-b border-navy-deep/10">
@@ -132,7 +117,6 @@ export default function Services() {
               </a>
             </div>
           </div>
-
           {/* card 5 */}
           <div className="group flex flex-col border border-navy-deep/10 bg-white transition-colors duration-300 hover:border-gold">
             <div className="aspect-video overflow-hidden border-b border-navy-deep/10">
@@ -151,7 +135,6 @@ export default function Services() {
               </a>
             </div>
           </div>
-
           {/* card 6 */}
           <div className="group flex flex-col border border-navy-deep/10 bg-white transition-colors duration-300 hover:border-gold">
             <div className="aspect-video overflow-hidden border-b border-navy-deep/10">
@@ -172,7 +155,6 @@ export default function Services() {
           </div>
           
         </div>
-
         {/* cta action */}
         <div className="mt-12 text-center">
           <a
@@ -182,7 +164,6 @@ export default function Services() {
             explore more services
           </a>
         </div>
-
       </Container>
     </section>
   );
