@@ -1,13 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-
-const STATS = [
-  { label: "Happy Customers", target: 1200, suffix: "" },
-  { label: "Goals Achieved", target: 94, suffix: "%" },
-  { label: "Patient Satisfaction", target: 98, suffix: "%" },
-  { label: "Conditions Treated", target: 40, suffix: "+" },
-  { label: "Years of Experience", target: 25, suffix: "+" },
-  { label: "Days Available / Week", target: 7, suffix: "" },
-];
+import Container from "../Container";
 
 function Counter({ target, suffix }) {
   const [value, setValue] = useState(0);
@@ -24,7 +16,6 @@ function Counter({ target, suffix }) {
           started.current = true;
           const duration = 1400;
           const startTime = performance.now();
-
           const step = (now) => {
             const progress = Math.min((now - startTime) / duration, 1);
             setValue(Math.floor(progress * target));
@@ -36,13 +27,12 @@ function Counter({ target, suffix }) {
       },
       { threshold: 0.4 }
     );
-
     observer.observe(node);
     return () => observer.disconnect();
   }, [target]);
 
   return (
-    <div ref={ref} className="font-display text-4xl font-semibold text-gold">
+    <div ref={ref} className="font-display text-5xl font-light text-gold md:text-6xl">
       {value}
       {suffix}
     </div>
@@ -51,17 +41,53 @@ function Counter({ target, suffix }) {
 
 export default function Stats() {
   return (
-    <section className="bg-navy-deep text-white">
-      <div className="mx-auto max-w-6xl px-6 py-16">
-        <div className="grid grid-cols-2 gap-y-9 text-center sm:grid-cols-3 md:grid-cols-6 md:gap-6">
-          {STATS.map((s) => (
-            <div key={s.label}>
-              <Counter target={s.target} suffix={s.suffix} />
-              <div className="mt-1.5 text-sm text-white/75">{s.label}</div>
+    <section className="border-y border-white/10 bg-navy-deep py-20">
+      <Container>
+        <div className="grid grid-cols-2 gap-y-16 text-center md:grid-cols-3 lg:grid-cols-6 lg:gap-0">
+          {/* stat 1 */}
+          <div className="flex flex-col items-center justify-center border-white/10 lg:border-r">
+            <Counter target={1200} suffix="" />
+            <div className="mt-4 text-xs font-bold uppercase tracking-widest text-white/50">
+              happy customers
             </div>
-          ))}
+          </div>
+          {/* stat 2 */}
+          <div className="flex flex-col items-center justify-center border-white/10 lg:border-r">
+            <Counter target={94} suffix="%" />
+            <div className="mt-4 text-xs font-bold uppercase tracking-widest text-white/50">
+              goals achieved
+            </div>
+          </div>
+          {/* stat 3 */}
+          <div className="flex flex-col items-center justify-center border-white/10 lg:border-r">
+            <Counter target={98} suffix="%" />
+            <div className="mt-4 text-xs font-bold uppercase tracking-widest text-white/50">
+              patient satisfaction
+            </div>
+          </div>
+          {/* stat 4 */}
+          <div className="flex flex-col items-center justify-center border-white/10 lg:border-r">
+            <Counter target={40} suffix="+" />
+            <div className="mt-4 text-xs font-bold uppercase tracking-widest text-white/50">
+              conditions treated
+            </div>
+          </div>
+          {/* stat 5 */}
+          <div className="flex flex-col items-center justify-center border-white/10 lg:border-r">
+            <Counter target={25} suffix="+" />
+            <div className="mt-4 text-xs font-bold uppercase tracking-widest text-white/50">
+              years experience
+            </div>
+          </div>
+          {/* stat 6 */}
+          <div className="flex flex-col items-center justify-center">
+            <Counter target={7} suffix="" />
+            <div className="mt-4 text-xs font-bold uppercase tracking-widest text-white/50">
+              days available / wk
+            </div>
+          </div>
         </div>
-      </div>
+      </Container>
     </section>
   );
 }
