@@ -4,7 +4,7 @@ import WhyChoose from '../layouts/WhyChoose';
 import Founder from '../layouts/Founder';
 import Coverage from '../layouts/Coverage';
 import Stats from '../layouts/Stats';
-// import Services from '../layouts/Services';
+import Services from '../layouts/Services';
 // import Conditions from '../layouts/Conditions';
 // import Journey from '../layouts/Journey';
 // import Testimonials from '../layouts/Testimonials';
@@ -24,7 +24,7 @@ const Home = () => {
             <Founder />
             <Coverage />
             <Stats />
-            {/* <Services /> */}
+            <Services />
             {/* <Conditions /> */}
             {/* <Journey /> */}
             {/* <Testimonials /> */}
