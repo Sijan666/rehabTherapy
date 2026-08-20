@@ -3,7 +3,7 @@ import Hero from '../layouts/Hero';
 import WhyChoose from '../layouts/WhyChoose';
 import Founder from '../layouts/Founder';
 import Coverage from '../layouts/Coverage';
-// import Stats from '../layouts/Stats';
+import Stats from '../layouts/Stats';
 // import Services from '../layouts/Services';
 // import Conditions from '../layouts/Conditions';
 // import Journey from '../layouts/Journey';
@@ -23,7 +23,7 @@ const Home = () => {
             <WhyChoose />
             <Founder />
             <Coverage />
-            {/* <Stats /> */}
+            <Stats />
             {/* <Services /> */}
             {/* <Conditions /> */}
             {/* <Journey /> */}
