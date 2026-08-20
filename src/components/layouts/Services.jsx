@@ -153,7 +153,6 @@ export default function Services() {
               </a>
             </div>
           </div>
-          
         </div>
         {/* cta action */}
         <div className="mt-12 text-center">
