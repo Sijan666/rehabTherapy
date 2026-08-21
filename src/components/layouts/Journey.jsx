@@ -1,46 +1,62 @@
+import Container from "../Container";
+
+// patient journey steps data
 const STEPS = [
   {
     num: "01",
-    title: "Free consultation",
+    title: "Free Consultation",
     body: "Speak to one of our senior physiotherapists for advice and to see if home rehab is right for you. No pressure, just clear guidance.",
   },
   {
     num: "02",
-    title: "Home assessment",
+    title: "Home Assessment",
     body: "We visit you at home to carry out a full clinical assessment and create a tailored plan for stroke, surgery or age-related needs.",
   },
   {
     num: "03",
-    title: "Start personalised therapy",
+    title: "Start Personalised Therapy",
     body: "We begin your personalised physiotherapy at home, with regular sessions, progress reviews and expert support.",
   },
 ];
 
 export default function Journey() {
   return (
-    <section className="px-6 py-22 text-center">
-      <div className="mx-auto max-w-6xl">
-        <div className="mb-3 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-gold-deep">
-          <span className="inline-block h-px w-5 bg-gold-deep" />
-          Patient journey
+    <section className="bg-cream py-16 md:py-24">
+      <Container>
+        <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
+          {/* eyebrow */}
+          <div className="mb-4 inline-flex items-center gap-3 text-xs font-bold uppercase tracking-[0.2em] text-gold-deep">
+            <span aria-hidden="true" className="h-px w-6 bg-gold-deep" />
+            patient journey
+          </div>
+          {/* title */}
+          <h2 className="font-display text-3xl font-light leading-tight text-navy-deep md:text-4xl">
+            Your journey with Rehab Therapist
+          </h2>
         </div>
-        <h2 className="text-3xl font-semibold md:text-4xl">
-          Your journey with Rehab Therapist
-        </h2>
-
-        <div className="relative mt-13 grid gap-9 md:grid-cols-3 md:gap-0">
-          <div className="pointer-events-none absolute top-8 right-[12%] left-[12%] hidden h-0.5 [background-image:repeating-linear-gradient(90deg,var(--color-gold)_0_10px,transparent_10px_20px)] md:block" />
+        <div className="relative mt-16 grid gap-10 md:grid-cols-3 md:gap-0">
+          <div 
+            aria-hidden="true" 
+            className="absolute left-[16%] right-[16%] top-8 hidden h-px border-t border-dashed border-navy-deep/20 md:block" 
+          />
           {STEPS.map((s) => (
-            <div key={s.num} className="relative z-10 px-6.5">
-              <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-navy-deep font-display text-xl font-semibold text-gold shadow-[0_20px_45px_-25px_rgba(15,43,42,0.35)]">
+            <div key={s.num} className="group relative z-10 flex flex-col items-center px-6 text-center">
+              {/* step number circle */}
+              <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-navy-deep font-display text-xl font-medium text-gold transition-colors duration-300 group-hover:bg-gold group-hover:text-navy-deep">
                 {s.num}
               </div>
-              <h4 className="text-base font-semibold">{s.title}</h4>
-              <p className="mt-1.5 text-sm text-ink-soft">{s.body}</p>
+              {/* step title */}
+              <h4 className="font-display text-xl font-medium text-navy-deep">
+                {s.title}
+              </h4>
+              {/* step description */}
+              <p className="mt-3 text-sm font-light leading-relaxed text-navy-deep/70">
+                {s.body}
+              </p>
             </div>
           ))}
         </div>
-      </div>
+      </Container>
     </section>
   );
 }
