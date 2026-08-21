@@ -61,7 +61,7 @@ export function CtaBand() {
               get in touch
             </a>
           </div>
-          {/* right cta (professional focus) - gold theme */}
+          {/* right cta */}
           <div className="flex flex-col justify-between bg-gold-deep p-10 text-navy-deep lg:p-16">
             <div>
               <h3 className="font-display text-3xl font-light leading-tight text-navy-deep md:text-4xl">
@@ -83,7 +83,6 @@ export function CtaBand() {
     </section>
   );
 }
-
 
 // --- NEWS / INSIGHTS COMPONENT ---
 const ARTICLES = [
