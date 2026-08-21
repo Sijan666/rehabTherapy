@@ -1,3 +1,6 @@
+import Container from "../Container";
+
+// conditions data array
 const CONDITIONS = [
   { title: "Stroke", img: "https://rehabtherapist.co.uk/wp-content/uploads/2025/06/Stroke.png", href: "https://rehabtherapist.co.uk/stroke/" },
   { title: "Brain Injury", img: "https://rehabtherapist.co.uk/wp-content/uploads/2025/06/Brain-Injury.png", href: "https://rehabtherapist.co.uk/brain-injury/" },
@@ -11,44 +14,74 @@ const CONDITIONS = [
 
 export default function Conditions() {
   return (
-    <section id="conditions" className="px-6 py-22 text-center">
-      <div className="mx-auto max-w-6xl">
-        <div className="mb-3 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-gold-deep">
-          <span className="inline-block h-px w-5 bg-gold-deep" />
-          Specialist care
+    // conditions section wrapper
+    <section id="conditions" className="bg-white py-16 md:py-24">
+      <Container>
+        
+        {/* section heading */}
+        <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
+          
+          {/* eyebrow */}
+          <div className="mb-4 inline-flex items-center gap-3 text-xs font-bold uppercase tracking-[0.2em] text-gold-deep">
+            <span aria-hidden="true" className="h-px w-6 bg-gold-deep" />
+            specialist care
+          </div>
+          
+          {/* title */}
+          <h2 className="font-display text-3xl font-light leading-tight text-navy-deep md:text-4xl">
+            Conditions Treated
+          </h2>
+          
+          {/* description */}
+          <p className="mt-4 max-w-xl text-base font-light text-navy-deep/70">
+            Our comprehensive physiotherapy services cater to a wide range of complex conditions,
+            providing specialised care to enhance mobility, strength and independence.
+          </p>
+          
         </div>
-        <h2 className="text-3xl font-semibold md:text-4xl">Conditions Treated</h2>
-        <p className="mx-auto mt-4 max-w-xl text-ink-soft">
-          Our comprehensive physiotherapy services cater to a wide range of complex conditions,
-          providing specialised care to enhance mobility, strength and independence.
-        </p>
 
-        <div className="mt-11 grid grid-cols-2 gap-5 md:grid-cols-4">
+        {/* conditions grid */}
+        <div className="mt-14 grid grid-cols-2 gap-6 md:grid-cols-4">
           {CONDITIONS.map((c) => (
             <div
               key={c.title}
-              className="rounded-2xl border border-line bg-white px-5 py-6.5 transition-all hover:-translate-y-1 hover:border-gold"
+              className="group flex flex-col items-center border border-navy-deep/10 bg-white p-8 text-center transition-colors duration-300 hover:border-gold hover:bg-cream/30"
             >
-              <div className="mx-auto mb-3.5 flex h-13.5 w-13.5 items-center justify-center rounded-2xl bg-cream-dim">
-                <img src={c.img} alt="" className="h-7 w-7 object-contain opacity-70 saturate-0" />
+              {/* icon wrapper */}
+              <div className="mb-5 flex h-16 w-16 items-center justify-center bg-navy-deep/5 transition-colors duration-300 group-hover:bg-gold/10">
+                <img 
+                  src={c.img} 
+                  alt={c.title} 
+                  className="h-8 w-8 object-contain opacity-70 grayscale transition-all duration-300 group-hover:opacity-100 group-hover:grayscale-0" 
+                />
               </div>
-              <h4 className="text-sm font-semibold">{c.title}</h4>
-              <a href={c.href} className="mt-2 inline-block text-xs font-bold text-gold-deep">
-                Learn more →
+              
+              {/* condition title */}
+              <h4 className="font-display text-lg font-medium text-navy-deep">
+                {c.title}
+              </h4>
+              
+              {/* link */}
+              <a 
+                href={c.href} 
+                className="mt-4 inline-block cursor-pointer text-xs font-bold uppercase tracking-widest text-gold-deep transition-colors duration-300 hover:text-navy-deep"
+              >
+                learn more &rarr;
               </a>
             </div>
           ))}
         </div>
-
-        <div className="mt-9">
+        {/* cta action */}
+        <div className="mt-12 text-center">
           <a
             href="https://rehabtherapist.co.uk/conditions-treated/"
-            className="inline-block rounded-full border border-navy px-7 py-3.5 text-sm font-semibold text-navy transition-colors hover:bg-navy hover:text-white"
+            className="inline-block cursor-pointer border border-navy-deep bg-transparent px-8 py-3.5 text-sm font-bold uppercase tracking-widest text-navy-deep transition-colors duration-300 hover:bg-navy-deep hover:text-white"
           >
-            More Conditions
+            more conditions
           </a>
         </div>
-      </div>
+        
+      </Container>
     </section>
   );
 }
