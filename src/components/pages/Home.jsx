@@ -8,7 +8,7 @@ import Services from '../layouts/Services';
 import Conditions from '../layouts/Conditions';
 import Journey from '../layouts/Journey';
 import Testimonials from '../layouts/Testimonials';
-// import { CtaBand, News, Trust } from '../layouts/TrustAndCta';
+import { CtaBand, News, Trust } from '../layouts/TrustAndCta';
 // import Contact from '../layouts/Contact';
 
 const Home = () => {
@@ -28,9 +28,9 @@ const Home = () => {
             <Conditions />
             <Journey />
             <Testimonials />
-            {/* <Trust /> */}
-            {/* <CtaBand /> */}
-            {/* <News /> */}
+            <Trust />
+            <CtaBand />
+            <News />
             {/* <Contact /> */}
         </main>
         </>
