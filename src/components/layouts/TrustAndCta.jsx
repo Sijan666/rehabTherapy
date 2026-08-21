@@ -44,7 +44,7 @@ export function CtaBand() {
       <Container>
         {/* high-contrast split layout without rounded corners */}
         <div className="grid grid-cols-1 border border-navy-deep/10 md:grid-cols-2">
-          {/* left cta (patient focus) - dark navy theme */}
+          {/* left cta */}
           <div className="flex flex-col justify-between bg-navy-deep p-10 text-white lg:p-16">
             <div>
               <h3 className="font-display text-3xl font-light leading-tight text-white md:text-4xl">
