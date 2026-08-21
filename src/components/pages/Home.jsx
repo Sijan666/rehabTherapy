@@ -6,7 +6,7 @@ import Coverage from '../layouts/Coverage';
 import Stats from '../layouts/Stats';
 import Services from '../layouts/Services';
 import Conditions from '../layouts/Conditions';
-// import Journey from '../layouts/Journey';
+import Journey from '../layouts/Journey';
 // import Testimonials from '../layouts/Testimonials';
 // import { CtaBand, News, Trust } from '../layouts/TrustAndCta';
 // import Contact from '../layouts/Contact';
@@ -26,7 +26,7 @@ const Home = () => {
             <Stats />
             <Services />
             <Conditions />
-            {/* <Journey /> */}
+            <Journey />
             {/* <Testimonials /> */}
             {/* <Trust /> */}
             {/* <CtaBand /> */}
