@@ -1,6 +1,15 @@
 import Container from "../Container";
 import Image from "../Image";
 
+// features data array
+const FEATURES = [
+  "No waiting list",
+  "Compassionate, personalised care at home",
+  "Specialists in neurological & elderly rehabilitation",
+  "Experienced and highly trained physiotherapists",
+  "Dedicated to helping you maximise your potential and enhance your quality of life",
+];
+
 // reusable svg check icon
 const CheckIcon = () => (
   <svg
@@ -17,7 +26,6 @@ const CheckIcon = () => (
 
 export default function WhyChoose() {
   return (
-    // section wrapper
     <section id="about" className="bg-cream py-24">
       <Container>
         <div className="grid items-center gap-16 md:grid-cols-2">
@@ -32,6 +40,7 @@ export default function WhyChoose() {
           </div>
           {/* content side */}
           <div className="flex flex-col justify-center">
+            {/* eyebrow */}
             <div className="mb-6 inline-flex items-center gap-4 text-xs font-bold uppercase tracking-[0.2em] text-gold-deep">
               <span aria-hidden="true" className="h-px w-8 bg-gold-deep" />
               why rehab therapist
@@ -40,48 +49,18 @@ export default function WhyChoose() {
             <h2 className="font-display text-4xl font-light leading-[1.2] text-navy-deep md:text-5xl">
               Why choose Rehab Therapist
             </h2>
-            {/* feature list */}
+            {/* dynamic feature list mapping */}
             <ul className="mt-10 flex flex-col gap-5">
-              <li className="flex items-start gap-4">
-                <span className="mt-1 flex h-6 w-6 flex-none items-center justify-center rounded-full bg-teal/15 text-teal">
-                  <CheckIcon />
-                </span>
-                <span className="text-lg font-light text-navy-deep/80">
-                  No waiting list
-                </span>
-              </li>
-              <li className="flex items-start gap-4">
-                <span className="mt-1 flex h-6 w-6 flex-none items-center justify-center rounded-full bg-teal/15 text-teal">
-                  <CheckIcon />
-                </span>
-                <span className="text-lg font-light text-navy-deep/80">
-                  Compassionate, personalised care at home
-                </span>
-              </li>
-              <li className="flex items-start gap-4">
-                <span className="mt-1 flex h-6 w-6 flex-none items-center justify-center rounded-full bg-teal/15 text-teal">
-                  <CheckIcon />
-                </span>
-                <span className="text-lg font-light text-navy-deep/80">
-                  Specialists in neurological & elderly rehabilitation
-                </span>
-              </li>
-              <li className="flex items-start gap-4">
-                <span className="mt-1 flex h-6 w-6 flex-none items-center justify-center rounded-full bg-teal/15 text-teal">
-                  <CheckIcon />
-                </span>
-                <span className="text-lg font-light text-navy-deep/80">
-                  Experienced and highly trained physiotherapists
-                </span>
-              </li>
-              <li className="flex items-start gap-4">
-                <span className="mt-1 flex h-6 w-6 flex-none items-center justify-center rounded-full bg-teal/15 text-teal">
-                  <CheckIcon />
-                </span>
-                <span className="text-lg font-light text-navy-deep/80">
-                  Dedicated to helping you maximise your potential and enhance your quality of life
-                </span>
-              </li>
+              {FEATURES.map((item, index) => (
+                <li key={index} className="flex items-start gap-4">
+                  <span className="mt-1 flex h-6 w-6 flex-none items-center justify-center rounded-full bg-teal/15 text-teal">
+                    <CheckIcon />
+                  </span>
+                  <span className="text-lg font-light text-navy-deep/80">
+                    {item}
+                  </span>
+                </li>
+              ))}
             </ul>
             {/* cta action */}
             <div className="mt-12">
