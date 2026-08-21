@@ -1,4 +1,5 @@
 import Container from "../Container";
+import Image from "../Image";
 
 // conditions data array
 const CONDITIONS = [
@@ -14,32 +15,25 @@ const CONDITIONS = [
 
 export default function Conditions() {
   return (
-    // conditions section wrapper
     <section id="conditions" className="bg-white py-16 md:py-24">
       <Container>
-        
         {/* section heading */}
         <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
-          
           {/* eyebrow */}
           <div className="mb-4 inline-flex items-center gap-3 text-xs font-bold uppercase tracking-[0.2em] text-gold-deep">
             <span aria-hidden="true" className="h-px w-6 bg-gold-deep" />
             specialist care
           </div>
-          
           {/* title */}
           <h2 className="font-display text-3xl font-light leading-tight text-navy-deep md:text-4xl">
             Conditions Treated
           </h2>
-          
           {/* description */}
           <p className="mt-4 max-w-xl text-base font-light text-navy-deep/70">
             Our comprehensive physiotherapy services cater to a wide range of complex conditions,
             providing specialised care to enhance mobility, strength and independence.
           </p>
-          
         </div>
-
         {/* conditions grid */}
         <div className="mt-14 grid grid-cols-2 gap-6 md:grid-cols-4">
           {CONDITIONS.map((c) => (
@@ -49,18 +43,16 @@ export default function Conditions() {
             >
               {/* icon wrapper */}
               <div className="mb-5 flex h-16 w-16 items-center justify-center bg-navy-deep/5 transition-colors duration-300 group-hover:bg-gold/10">
-                <img 
-                  src={c.img} 
+                <Image 
+                  imgSrc={c.img} 
                   alt={c.title} 
                   className="h-8 w-8 object-contain opacity-70 grayscale transition-all duration-300 group-hover:opacity-100 group-hover:grayscale-0" 
                 />
               </div>
-              
               {/* condition title */}
               <h4 className="font-display text-lg font-medium text-navy-deep">
                 {c.title}
               </h4>
-              
               {/* link */}
               <a 
                 href={c.href} 
@@ -80,7 +72,6 @@ export default function Conditions() {
             more conditions
           </a>
         </div>
-        
       </Container>
     </section>
   );
