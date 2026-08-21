@@ -14,12 +14,10 @@ export function Trust() {
           accreditation
           <span aria-hidden="true" className="h-px w-6 bg-gold-deep" />
         </div>
-        
         {/* title */}
         <h2 className="font-display text-2xl font-light text-navy-deep md:text-3xl">
           Registered Chartered Physiotherapists
         </h2>
-        
         {/* badges */}
         <div className="mt-10 flex flex-wrap items-center justify-center gap-6">
           {BADGES.map((badge, index) => (
