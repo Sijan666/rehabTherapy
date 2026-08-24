@@ -2,30 +2,23 @@ import Container from "../Container";
 
 export default function Contact() {
   return (
-    // contact section wrapper
     <section id="contact-section" className="bg-white py-16 md:py-24">
       <Container>
-        
-        {/* sharp dark premium block */}
         <div className="flex flex-col items-center border border-navy-deep/10 bg-navy-deep p-10 text-center text-white md:p-20">
-          
           {/* eyebrow */}
           <div className="mb-6 inline-flex items-center gap-4 text-xs font-bold uppercase tracking-[0.2em] text-gold">
             <span aria-hidden="true" className="h-px w-8 bg-gold" />
             get started
             <span aria-hidden="true" className="h-px w-8 bg-gold" />
           </div>
-          
           {/* main title */}
           <h2 className="font-display text-4xl font-light leading-tight text-white md:text-5xl lg:text-6xl">
             Contact Us
           </h2>
-          
           {/* description */}
           <p className="mt-6 max-w-xl text-base font-light leading-relaxed text-white/80 md:text-lg">
             Home-based neurological, elderly physiotherapy and rehabilitation across the UK.
           </p>
-          
           {/* action buttons */}
           <div className="mt-12 flex flex-wrap justify-center gap-6">
             <a
@@ -43,7 +36,6 @@ export default function Contact() {
               whatsapp us
             </a>
           </div>
-          
           {/* contact info footer */}
           <div className="mt-16 flex w-full max-w-2xl flex-col items-center justify-center gap-4 border-t border-white/10 pt-8 sm:flex-row sm:gap-10">
             <a 
@@ -60,9 +52,7 @@ export default function Contact() {
               0330 551 3660
             </a>
           </div>
-
         </div>
-        
       </Container>
     </section>
   );
