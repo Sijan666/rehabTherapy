@@ -1,5 +1,6 @@
 import Container from "../Container";
 import Image from "../Image";
+import nopicimg from '../../assets/nopicimg.png'
 
 export default function Founder() {
   return (
@@ -10,8 +11,8 @@ export default function Founder() {
           {/* image side */}
           <div className="relative z-10 w-full lg:w-5/12">
             <Image
-              imgSrc="https://rehabtherapist.co.uk/wp-content/uploads/2025/08/rehabtherapist-1024x1024.png"
-              alt="krishna gundapudi, clinical director"
+              imgSrc={nopicimg}
+              alt="nopicimg"
               className="aspect-4/5 w-full object-cover grayscale transition-all duration-700 hover:grayscale-0"
             />
           </div>
@@ -22,14 +23,14 @@ export default function Founder() {
               clinical director
             </div>
             <h2 className="font-display text-5xl font-light leading-tight text-white lg:text-[70px]">
-              Krishna Gundapudi
+              Pia Mulder
             </h2>
             <p className="mt-4 font-display text-xl tracking-wide text-white/50">
               Neurological Physiotherapist
             </p>
             {/* description text */}
             <p className="mt-8 text-base font-light leading-relaxed text-white/70 lg:text-lg">
-              Krishna Gundapudi is a seasoned professional neurological physiotherapist with over 25 years of experience. He is leading a dedicated team of expert rehabilitation experts committed to delivering personalised care to clients in their own homes across the UK.
+              Pia Mulder is a seasoned professional neurological physiotherapist with over 25 years of experience. She is leading a dedicated team of expert rehabilitation experts committed to delivering personalised care to clients in their own homes across the UK.
             </p>
             <div className="my-10 flex gap-8 border-y border-white/10 py-6">
               <div>
