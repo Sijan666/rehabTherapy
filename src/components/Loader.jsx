@@ -2,7 +2,8 @@ import React from 'react';
 
 const StudioLoader = () => {
   return (
-    <div className="fixed inset-0 z-9999 flex flex-col items-center justify-center bg-white selection:bg-transparent overflow-hidden">
+    <div className="fixed inset-0 z-9999 flex flex-col items-center justify-center overflow-hidden bg-navy-deep selection:bg-transparent">
+      {/* inline styles for premium animations */}
       <style>{`
         @keyframes text-reveal {
           0% { clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%); transform: translateY(20px); }
@@ -30,14 +31,17 @@ const StudioLoader = () => {
           animation: fade-in-out 2.5s cubic-bezier(0.77, 0, 0.175, 1) infinite;
         }
       `}</style>
-
-      <div className="relative flex flex-col items-center justify-center h-40">
-        <h1 className="text-[#262626] text-5xl md:text-6xl font-bold tracking-[0.25em] uppercase animate-brand-text">
-          Orebi
+      {/* loader content block */}
+      <div className="relative flex h-40 flex-col items-center justify-center text-center">
+        {/* main brand reveal */}
+        <h1 className="animate-brand-text font-display text-3xl font-light uppercase tracking-[0.25em] text-white md:text-5xl">
+          Rehab Therapist
         </h1>
-        <div className="absolute bottom-6 h-0.5 bg-[#262626] animate-sweep-line"></div>
-        <div className="absolute bottom-0 text-[10px] uppercase tracking-[0.5em] text-gray-400 font-semibold animate-subtext">
-          Exclusive Collection
+        {/* gold sweeping line */}
+        <div className="animate-sweep-line absolute bottom-6 h-px bg-gold"></div>
+        {/* fading subtext */}
+        <div className="animate-subtext absolute bottom-0 text-[10px] font-bold uppercase tracking-[0.4em] text-white/50">
+          Specialist Care
         </div>
       </div>
     </div>
