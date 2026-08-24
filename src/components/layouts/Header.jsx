@@ -17,7 +17,6 @@ export default function Header() {
         { name: "About", path: "/about" },
         { name: "Services", path: "/services" },
         { name: "What We Treat", path: "/conditions" },
-        { name: "Locations", path: "/locations" },
     ];
 
     {/* toggle handlers */}
