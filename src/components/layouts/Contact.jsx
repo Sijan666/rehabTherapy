@@ -1,40 +1,69 @@
+import Container from "../Container";
+
 export default function Contact() {
   return (
-    <section id="contact-section" className="px-6 py-14">
-      <div className="mx-auto max-w-6xl">
-        <div className="rounded-[28px] bg-navy-deep px-6 py-14 text-center text-white">
-          <div className="mb-3 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-gold">
-            <span className="inline-block h-px w-5 bg-gold" />
-            Get started
+    // contact section wrapper
+    <section id="contact-section" className="bg-white py-16 md:py-24">
+      <Container>
+        
+        {/* sharp dark premium block */}
+        <div className="flex flex-col items-center border border-navy-deep/10 bg-navy-deep p-10 text-center text-white md:p-20">
+          
+          {/* eyebrow */}
+          <div className="mb-6 inline-flex items-center gap-4 text-xs font-bold uppercase tracking-[0.2em] text-gold">
+            <span aria-hidden="true" className="h-px w-8 bg-gold" />
+            get started
+            <span aria-hidden="true" className="h-px w-8 bg-gold" />
           </div>
-          <h2 className="text-3xl font-semibold text-white md:text-4xl">Contact Us</h2>
-          <p className="mx-auto mt-3 max-w-lg text-white/80">
+          
+          {/* main title */}
+          <h2 className="font-display text-4xl font-light leading-tight text-white md:text-5xl lg:text-6xl">
+            Contact Us
+          </h2>
+          
+          {/* description */}
+          <p className="mt-6 max-w-xl text-base font-light leading-relaxed text-white/80 md:text-lg">
             Home-based neurological, elderly physiotherapy and rehabilitation across the UK.
           </p>
-
-          <div className="mt-7 flex flex-wrap justify-center gap-4.5">
+          
+          {/* action buttons */}
+          <div className="mt-12 flex flex-wrap justify-center gap-6">
             <a
               href="https://rehabtherapist.co.uk/book-free-rehabilitation-call/"
-              className="rounded-full bg-gold px-7 py-3.5 text-sm font-semibold text-navy-deep transition-all hover:-translate-y-0.5 hover:bg-gold-deep hover:shadow-xl"
+              aria-label="book a free consultation"
+              className="inline-block cursor-pointer bg-gold px-10 py-4 text-xs font-bold uppercase tracking-widest text-navy-deep transition-colors duration-300 hover:bg-white hover:text-navy-deep"
             >
-              Book A Free Consultation
+              book consultation
             </a>
             <a
               href="https://wa.me/4407777999277"
-              className="rounded-full border border-white/55 px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-white/10"
+              aria-label="message us on whatsapp"
+              className="inline-block cursor-pointer border border-white/30 bg-transparent px-10 py-4 text-xs font-bold uppercase tracking-widest text-white transition-colors duration-300 hover:border-gold hover:bg-gold hover:text-navy-deep"
             >
-              Message us on WhatsApp
+              whatsapp us
+            </a>
+          </div>
+          
+          {/* contact info footer */}
+          <div className="mt-16 flex w-full max-w-2xl flex-col items-center justify-center gap-4 border-t border-white/10 pt-8 sm:flex-row sm:gap-10">
+            <a 
+              href="mailto:info@rehabtherapist.co.uk" 
+              className="text-sm font-light tracking-widest text-white/70 transition-colors duration-300 hover:text-gold"
+            >
+              info@rehabtherapist.co.uk
+            </a>
+            <span aria-hidden="true" className="hidden h-1 w-1 rounded-full bg-gold/50 sm:block" />
+            <a 
+              href="tel:03305513660" 
+              className="text-sm font-light tracking-widest text-white/70 transition-colors duration-300 hover:text-gold"
+            >
+              0330 551 3660
             </a>
           </div>
 
-          <p className="mt-7 text-sm text-white/75">
-            info@rehabtherapist.co.uk &nbsp;·&nbsp;{" "}
-            <a href="tel:03305513660" className="text-white">
-              0330 551 3660
-            </a>
-          </p>
         </div>
-      </div>
+        
+      </Container>
     </section>
   );
 }
