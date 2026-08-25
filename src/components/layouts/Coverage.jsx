@@ -32,7 +32,6 @@ export default function Coverage() {
               </a>
             </div>
           </div>
-          {/* graphic / map side  */}
           <div className="relative flex min-h-[400px] w-full items-center justify-center overflow-hidden bg-navy-deep text-white shadow-2xl">
             {/* abstract map */}
             <svg
