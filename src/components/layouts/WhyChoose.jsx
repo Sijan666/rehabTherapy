@@ -32,7 +32,7 @@ export default function WhyChoose() {
                 <div className="grid items-center gap-14 md:grid-cols-2 lg:gap-20 xl:gap-24">
                     {/* image side */}
                     <div className="relative order-2 w-full md:order-1">
-                        {/* premium image wrapper with subtle hover zoom */}
+                        {/* image wrapper */}
                         <div className="relative z-10 overflow-hidden bg-navy-deep/5 shadow-2xl shadow-navy-deep/10">
                             <Image
                                 imgSrc="https://rehabtherapist.co.uk/wp-content/uploads/2025/07/Why-choose-rehab-therapist.png"
@@ -40,7 +40,7 @@ export default function WhyChoose() {
                                 className="aspect-4/5 w-full object-cover transition-transform duration-700 ease-out hover:scale-105 sm:aspect-square md:aspect-4/5"
                             />
                         </div>
-                        {/* elegant decorative offset border */}
+                        {/* decorative offset border */}
                         <div 
                             aria-hidden="true" 
                             className="absolute -bottom-5 -left-5 z-0 h-full w-full border border-navy-deep/15 transition-transform duration-500 hover:-translate-x-1 hover:translate-y-1 sm:-bottom-8 sm:-left-8" 
