@@ -18,6 +18,10 @@ import sliderThree from "../../assets/sliderThree.jpg";
 import sliderFour from "../../assets/sliderFour.jpg";
 import sliderFive from "../../assets/sliderFive.jpg";
 import sliderSix from "../../assets/sliderSix.jpg";
+import valuesOne from "../../assets/valuesOne.png";
+import valuesTwo from "../../assets/valuesTwo.png";
+import valuesThree from "../../assets/valuesThree.png";
+import valuesFour from "../../assets/valuesFour.png";
 
 // Multidisciplinary Team Services
 const MULTIDISCIPLINARY_SERVICES = [
@@ -42,30 +46,26 @@ const VALUES = [
   {
     title: "COMPASSION",
     description:
-      "We treat every person with dignity, empathy, and kindness. We listen, understand, and respond to each individual's story, needs, and goals.",
-    image:
-      "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=600&q=80",
+      "We treat every person with dignity, empathy, and kindness. We listen, understand, and respond to each individual’s story, needs, and goals.",
+    image: valuesOne,
   },
   {
     title: "EXCELLENCE",
     description:
       "We deliver the highest standards of rehabilitation through skilled clinicians, continuous learning, and evidence-based practice. We strive for meaningful outcomes that truly enhance quality of life.",
-    image:
-      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80",
+    image: valuesTwo,
   },
   {
     title: "EMPOWERMENT",
     description:
       "We support individuals and families to take an active role in their rehabilitation. Our approach is collaborative, goal-driven, and focused on restoring confidence and independence.",
-    image:
-      "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=600&q=80",
+    image: valuesThree,
   },
   {
     title: "INTEGRITY",
     description:
       "We are honest, dependable, and transparent in all our actions. We take pride in providing consistent, reliable care that patients and professionals can trust.",
-    image:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=600&q=80",
+    image: valuesFour,
   },
 ];
 
@@ -358,24 +358,27 @@ export default function About_Us() {
             </div>
           </div>
 
-          {/* Mission & Vision Grid */}
-          <div className="mt-14 flex items-center justify-between  sm:mt-20">
-            <div className="grid grid-cols-1 items-center gap-8">
-              <div className="flex justify-center md:col-span-6">
-                <div className="w-full max-w-[340px] overflow-hidden rounded-xl shadow-md">
+          {/* Mission & Vision Section */}
+          <div className="mt-14 space-y-12 sm:mt-20 sm:space-y-16">
+            {/* Our Mission */}
+            <div className="flex flex-col items-center gap-8 md:flex-row  md:gap-12">
+              {/* Image container */}
+              <div className="w-full md:w-1/2">
+                <div className="overflow-hidden rounded-2xl shadow-sm">
                   <Image
                     imgSrc={mission}
                     alt="Our Mission"
-                    className="w-full object-cover"
+                    className="h-auto w-full object-cover"
                   />
                 </div>
               </div>
 
-              <div className="space-y-3">
-                <h3 className="text-xl font-extrabold uppercase tracking-wide text-slate-900 sm:text-2xl">
-                  Our Mission
+              {/* Text container */}
+              <div className="w-full space-y-3 md:w-1/2 md:pt-4">
+                <h3 className="text-xl font-extrabold uppercase tracking-wider text-slate-800 sm:text-2xl">
+                  OUR MISSION
                 </h3>
-                <p className="text-xs lg:w-[500px] text-justify leading-relaxed text-slate-600 sm:text-sm">
+                <p className=" text-justify text-xs leading-relaxed text-slate-500 sm:text-sm sm:leading-loose">
                   At Rehab Therapist, our mission is to deliver expert,
                   compassionate rehabilitation in the comfort of people’s own
                   homes—empowering individuals with rehabilitation needs to
@@ -387,24 +390,27 @@ export default function About_Us() {
               </div>
             </div>
 
-            <div className=" flex justify-between  items-center gap-x-8 ">
-              <div className="order-2 space-y-3 text-left md:order-1 md:col-span-6">
-                <h3 className="text-xl font-extrabold uppercase tracking-wide text-slate-900 sm:text-2xl">
-                  Our Vision
+            {/* Our Vision */}
+            <div className="flex flex-col-reverse items-center gap-8 md:flex-row  md:gap-12">
+              {/* Text container */}
+              <div className="w-full space-y-3 md:w-1/2 md:pt-4">
+                <h3 className="text-xl font-extrabold uppercase tracking-wider text-slate-800 sm:text-2xl">
+                  OUR VISION
                 </h3>
-                <p className="text-xs lg:w-[500px] text-justify leading-relaxed text-slate-600 sm:text-sm">
+                <p className="text-justify text-xs leading-relaxed text-slate-500 sm:text-sm sm:leading-loose">
                   To be the leading provider of home-based rehabilitation in the
                   UK—setting the standard for excellence, equity, and innovation
                   in private community rehabilitation.
                 </p>
               </div>
 
-              <div className="">
-                <div className="w-full max-w-[340px] overflow-hidden rounded-xl shadow-md">
+              {/* Image container */}
+              <div className="w-full md:w-1/2">
+                <div className="overflow-hidden rounded-2xl shadow-sm">
                   <Image
                     imgSrc={vision}
                     alt="Our Vision"
-                    className="w-full object-cover"
+                    className="h-auto w-full object-cover"
                   />
                 </div>
               </div>
@@ -459,7 +465,7 @@ export default function About_Us() {
               <h2 className="text-2xl font-black uppercase tracking-wide text-slate-900 sm:text-3xl">
                 AREAS WE COVER
               </h2>
-              <p className="text-xs leading-relaxed text-slate-600 sm:text-sm">
+              <p className="text-xs lg:w-85 leading-relaxed text-slate-600 sm:text-sm">
                 Home based Neurological, elderly physiotherapy and
                 rehabilitation across the UK.
               </p>
@@ -475,12 +481,13 @@ export default function About_Us() {
 
             <div className="flex justify-end md:col-span-7">
               <div className="w-full overflow-hidden rounded-md border border-slate-200 shadow-sm">
-                <img
-                  src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=800&q=80"
-                  alt="Areas we cover map"
-                  className="h-64 w-full object-cover"
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2171.5524249815944!2d90.38014476097447!3d23.743766804136005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdhanmondi%20labaid%20hospital!5e0!3m2!1sen!2sbd!4v1787681693311!5m2!1sen!2sbd"
+            className="w-full h-100"
+                  allowfullscreen=""
                   loading="lazy"
-                />
+                  referrerpolicy="strict-origin-when-cross-origin"
+                ></iframe>
               </div>
             </div>
           </div>
