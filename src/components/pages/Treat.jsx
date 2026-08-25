@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import Banner from "../treatLayouts/Banner";
+import HomeVisite from "../treatLayouts/HomeVisite";
 
 const Treat = () => {
   return (
@@ -13,6 +14,7 @@ const Treat = () => {
       </Helmet>
       <main>
         <Banner />
+        <HomeVisite />
       </main>
     </>
   );
