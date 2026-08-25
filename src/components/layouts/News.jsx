@@ -72,7 +72,7 @@ export default function News() {
                                         {article.excerpt}
                                     </p>
                                 </div>
-                                {/* simple text action without moving parts */}
+                                {/* text action */}
                                 <div className="mt-10 flex items-center gap-3 text-[11px] font-bold uppercase tracking-widest text-white/50 transition-colors duration-300 group-hover:text-gold-deep sm:text-xs">
                                     read full article
                                 </div>
