@@ -14,9 +14,9 @@ export default function Header() {
 
     {/* nav data */}
     const navItems = [
-        { name: "About", path: "/about" },
-        { name: "Services", path: "/services" },
-        { name: "What We Treat", path: "/conditions" },
+      { name: "About", path: "/about-us" },
+      { name: "Services", path: "/services" },
+      { name: "What We Treat", path: "/conditions" },
     ];
 
     {/* toggle handlers */}
