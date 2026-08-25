@@ -4,7 +4,6 @@ import nopicimg from '../../assets/nopicimg.png'
 
 export default function Founder() {
   return (
-    // completely new editorial layout section
     <section id="founder" className="bg-navy-deep py-24 lg:py-32">
       <Container>
         <div className="flex flex-col lg:flex-row lg:items-center">
