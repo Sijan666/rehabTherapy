@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import Banner from "../treatLayouts/Banner";
 
 const Treat = () => {
   return (
@@ -11,7 +12,7 @@ const Treat = () => {
         />
       </Helmet>
       <main>
-        
+        <Banner />
       </main>
     </>
   );

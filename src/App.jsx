@@ -15,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<RootLayouts />}>
             <Route index element={<Home />} />
+              <Route path="/conditions" element={<Treat />} />
           </Route>
           <Route path="*" element={<Error />} />
         </Routes>
