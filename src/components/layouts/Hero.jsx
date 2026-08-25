@@ -53,7 +53,7 @@ export default function Hero() {
                         active === index ? "z-10 opacity-100" : "pointer-events-none z-0 opacity-0"
                     }`}
                 >
-                    {/* premium background image with subtle zoom */}
+                    {/* background image */}
                     <Image
                         imgSrc={slide.bgImage}
                         alt={slide.title.replace('\n', ' ')}
