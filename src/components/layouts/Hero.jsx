@@ -60,7 +60,6 @@ export default function Hero() {
                         className="absolute inset-0 h-full w-full object-cover opacity-40 mix-blend-screen transition-transform duration-10000 ease-linear"
                         style={{ transform: active === index ? "scale(1.05)" : "scale(1)" }}
                     />
-                    {/* deep gradient overlay for better text readability */}
                     <div className="absolute inset-0 bg-linear-to-r from-navy-deep/95 via-navy-deep/70 to-transparent" />
                     {/* content container */}
                     <Container className="relative z-20 flex h-full w-full flex-col justify-center">
@@ -70,7 +69,6 @@ export default function Hero() {
                                 <span className="h-0.5 w-10 bg-gold-deep sm:w-12" />
                                 {slide.subtitle}
                             </div>
-                            {/* responsive multiline title */}
                             <h1 className="font-display text-[2.5rem] font-light leading-[1.15] text-white sm:text-5xl md:text-6xl lg:text-[72px]">
                                 {slide.title.split('\n').map((line, i) => (
                                     <span key={i} className="block">{line}</span>
