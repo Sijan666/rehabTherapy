@@ -40,7 +40,7 @@ export default function WhyChoose() {
                                 className="aspect-4/5 w-full object-cover transition-transform duration-700 ease-out hover:scale-105 sm:aspect-square md:aspect-4/5"
                             />
                         </div>
-                        {/* decorative offset border */}
+                        {/* decorative border */}
                         <div 
                             aria-hidden="true" 
                             className="absolute -bottom-5 -left-5 z-0 h-full w-full border border-navy-deep/15 transition-transform duration-500 hover:-translate-x-1 hover:translate-y-1 sm:-bottom-8 sm:-left-8" 
