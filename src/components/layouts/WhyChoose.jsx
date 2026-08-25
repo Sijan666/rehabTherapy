@@ -11,7 +11,7 @@ const features = [
     "Dedicated to helping you maximise your potential and enhance your quality of life",
 ];
 
-{/* elegant reusable check icon */}
+{/* reusable check icon */}
 const CheckIcon = () => (
     <svg
         className="h-3.5 w-3.5"
