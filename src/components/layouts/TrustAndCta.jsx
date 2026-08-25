@@ -1,7 +1,6 @@
 import Container from "../Container";
 import Image from "../Image";
 
-// --- TRUST / ACCREDITATION COMPONENT ---
 const BADGES = ["HCPC Registered", "CSP", "ACPIN", "BABICM", "ICO"];
 
 export function Trust() {
@@ -34,13 +33,11 @@ export function Trust() {
   );
 }
 
-
-// --- CTA BAND COMPONENT ---
+// CTA BAND COMPONENT
 export function CtaBand() {
   return (
     <section className="bg-cream py-16 md:py-24">
       <Container>
-        {/* high-contrast split layout without rounded corners */}
         <div className="grid grid-cols-1 border border-navy-deep/10 md:grid-cols-2">
           {/* left cta */}
           <div className="flex flex-col justify-between bg-navy-deep p-10 text-white lg:p-16">
@@ -82,7 +79,7 @@ export function CtaBand() {
   );
 }
 
-// --- NEWS / INSIGHTS COMPONENT ---
+// NEWS
 const ARTICLES = [
   {
     date: "August 17, 2026",
