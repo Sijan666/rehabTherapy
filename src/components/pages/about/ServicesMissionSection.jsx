@@ -13,7 +13,6 @@ export default function ServicesMissionSection() {
           </h2>
           <ServicesSlider />
         </div>
-
         <MissionVision />
       </Container>
     </section>
