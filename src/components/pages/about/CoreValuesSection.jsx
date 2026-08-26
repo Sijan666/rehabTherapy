@@ -42,14 +42,13 @@ export default function CoreValuesSection() {
             OUR CORE VALUES
           </h2>
         </div>
-
         <div className="mt-8 grid grid-cols-1 gap-6 sm:mt-12 md:grid-cols-2">
           {VALUES.map((item, index) => (
             <div
               key={`value-${index}`}
-              className="flex min-h-[160px] flex-col overflow-hidden rounded-md border border-slate-100 bg-white shadow-sm transition-all duration-300 hover:shadow-md sm:flex-row"
+              className="flex min-h-40 flex-col overflow-hidden rounded-md border border-slate-100 bg-white shadow-sm transition-all duration-300 hover:shadow-md sm:flex-row"
             >
-              <div className="h-44 flex-shrink-0 sm:h-auto sm:w-5/12">
+              <div className="h-44 shrink-0 sm:h-auto sm:w-5/12">
                 <img
                   src={item.image}
                   alt={item.title}
@@ -57,7 +56,6 @@ export default function CoreValuesSection() {
                   loading="lazy"
                 />
               </div>
-
               <div className="flex flex-col justify-start p-5 sm:w-7/12">
                 <h3 className="text-base font-bold uppercase tracking-wide text-slate-900">
                   {item.title}
