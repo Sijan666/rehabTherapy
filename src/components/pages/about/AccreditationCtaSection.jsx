@@ -13,9 +13,7 @@ export default function AccreditationCtaSection() {
             REGISTERED CHARTERED PHYSIOTHERAPISTS
           </h2>
         </div>
-
         <AccreditationLogos />
-
         <div className="mt-12 grid grid-cols-1 gap-6 sm:mt-14 md:grid-cols-2">
           <div className="relative overflow-hidden rounded-lg shadow-md">
             <img
@@ -31,14 +29,13 @@ export default function AccreditationCtaSection() {
               <div className="mt-4">
                 <Button
                   className={
-                    "rounded-md !bg-[#00A499] px-6 py-2.5 text-xs font-semibold text-white shadow transition hover:bg-[#008f85] focus:outline-none focus:ring-2 focus:ring-[#00A499] active:scale-95"
+                    "rounded-md bg-[#00A499]! px-6 py-2.5 text-xs font-semibold text-white shadow transition hover:bg-[#008f85] focus:outline-none focus:ring-2 focus:ring-[#00A499] active:scale-95"
                   }
                   children={"Get in Touch"}
                 />
               </div>
             </div>
           </div>
-
           <div className="relative overflow-hidden rounded-lg shadow-md">
             <img
               src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80"
@@ -54,7 +51,7 @@ export default function AccreditationCtaSection() {
               <div className="mt-4">
                 <Button
                   className={
-                    "rounded-md !bg-[#00A499] px-6 py-2.5 text-xs font-semibold text-white shadow transition hover:bg-[#008f85] focus:outline-none focus:ring-2 focus:ring-[#00A499] active:scale-95"
+                    "rounded-md bg-[#00A499]! px-6 py-2.5 text-xs font-semibold text-white shadow transition hover:bg-[#008f85] focus:outline-none focus:ring-2 focus:ring-[#00A499] active:scale-95"
                   }
                   children={"Make a Referral"}
                 />
