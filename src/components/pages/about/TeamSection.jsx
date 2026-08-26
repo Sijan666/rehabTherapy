@@ -11,7 +11,6 @@ export default function TeamSection() {
             Meet Our Team
           </h2>
         </div>
-
         <div className="mx-auto mt-6 max-w-3xl space-y-4 text-center text-sm leading-relaxed text-slate-600 sm:mt-8 sm:space-y-6 sm:text-base">
           <p>
             Every member of our team is a qualified, HCPC-registered
@@ -27,7 +26,6 @@ export default function TeamSection() {
             practice.
           </p>
         </div>
-
         <MultidisciplinaryServices />
       </Container>
     </section>
