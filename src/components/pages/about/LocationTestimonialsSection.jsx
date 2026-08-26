@@ -19,13 +19,12 @@ export default function LocationTestimonialsSection() {
             <div className="pt-2">
               <Button
                 className={
-                  "rounded-md !bg-[#00A499] px-6 py-2.5 text-xs font-semibold text-white shadow transition hover:bg-[#008f85] focus:outline-none focus:ring-2 focus:ring-[#00A499] active:scale-95"
+                  "rounded-md bg-[#00A499]! px-6 py-2.5 text-xs font-semibold text-white shadow transition hover:bg-[#008f85] focus:outline-none focus:ring-2 focus:ring-[#00A499] active:scale-95"
                 }
                 children={" Find out More"}
               />
             </div>
           </div>
-
           <div className="flex justify-end md:col-span-7">
             <div className="w-full overflow-hidden rounded-md border border-slate-200 shadow-sm">
               <iframe
@@ -38,7 +37,6 @@ export default function LocationTestimonialsSection() {
             </div>
           </div>
         </div>
-
         <TestimonialsSlider />
       </Container>
     </section>
