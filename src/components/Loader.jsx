@@ -3,7 +3,7 @@ import React from 'react';
 const StudioLoader = () => {
   return (
     <div className="fixed inset-0 z-9999 flex flex-col items-center justify-center overflow-hidden bg-navy-deep selection:bg-transparent">
-      {/* inline styles for premium animations */}
+      {/* inline styles */}
       <style>{`
         @keyframes text-reveal {
           0% { clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%); transform: translateY(20px); }
