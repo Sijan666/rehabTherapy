@@ -1,4 +1,4 @@
-import React from "react";;
+import React from "react";
 
 import valuesOne from "../../../assets/valuesOne.png";
 import valuesTwo from "../../../assets/valuesTwo.png";
