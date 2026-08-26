@@ -16,7 +16,6 @@ export default function LeadershipSection() {
             Clinical Director and Neurological Physiotherapist
           </p>
         </div>
-
         <div className="grid grid-cols-1 gap-8 md:grid-cols-12 md:gap-10">
           <div className="flex justify-center md:col-span-4 md:justify-start">
             <div className="w-full max-w-sm overflow-hidden rounded-lg shadow-md md:max-w-none">
@@ -27,7 +26,6 @@ export default function LeadershipSection() {
               />
             </div>
           </div>
-
           <div className="flex flex-col justify-start space-y-4 text-sm leading-relaxed text-slate-600 sm:text-base md:col-span-8">
             <p>
               Krishna is a highly specialist physiotherapist with over 25 years
@@ -54,7 +52,6 @@ export default function LeadershipSection() {
             </p>
           </div>
         </div>
-
         <div className="mt-6 space-y-4 text-sm leading-relaxed text-slate-600 sm:text-base">
           <p>
             Having trained with highly reputed researchers such as Anne
@@ -86,9 +83,8 @@ export default function LeadershipSection() {
             to support more individuals at home.
           </p>
         </div>
-
         <div className="mt-8 flex justify-center sm:mt-10">
-          <Button className="rounded-md !bg-[#00A499] px-6 py-3 text-sm font-semibold shadow-md transition-all duration-300 hover:bg-[#008f85] focus:outline-none focus:ring-2 focus:ring-[#00A499] focus:ring-offset-2 active:scale-95 sm:px-8 sm:py-3.5 sm:text-base">
+          <Button className="rounded-md bg-[#00A499]! px-6 py-3 text-sm font-semibold shadow-md transition-all duration-300 hover:bg-[#008f85] focus:outline-none focus:ring-2 focus:ring-[#00A499] focus:ring-offset-2 active:scale-95 sm:px-8 sm:py-3.5 sm:text-base">
             Book your Free Consultation
           </Button>
         </div>
