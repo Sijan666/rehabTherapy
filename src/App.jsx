@@ -1,12 +1,13 @@
-import React, { Suspense, lazy } from 'react';
-import './App.css';
-import { Routes, Route } from 'react-router-dom';
-import ReactLenis from 'lenis/react';
-import Loader from './components/Loader';
+import React, { Suspense, lazy } from "react";
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import ReactLenis from "lenis/react";
+import Loader from "./components/Loader";
+import Treat from "./components/pages/Treat";
 
-const RootLayouts = lazy(() => import('./components/layouts/RootLayouts'));
-const Home = lazy(() => import('./components/pages/Home'));
-const Error = lazy(() => import('./components/pages/Error'));
+const RootLayouts = lazy(() => import("./components/layouts/RootLayouts"));
+const Home = lazy(() => import("./components/pages/Home"));
+const Error = lazy(() => import("./components/pages/Error"));
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<RootLayouts />}>
             <Route index element={<Home />} />
-              <Route path="/conditions" element={<Treat />} />
+            <Route path="/conditions" element={<Treat />} />
           </Route>
           <Route path="*" element={<Error />} />
         </Routes>
