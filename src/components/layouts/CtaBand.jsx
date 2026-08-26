@@ -22,7 +22,6 @@ export default function CtaBand() {
                                 Speak directly with our senior physiotherapists to find the best care plan tailored to your specific needs.
                             </p>
                         </div>
-                        {/* custom button component */}
                         <Button
                             onClick={scrollToContact}
                             className="relative z-10 mt-12 inline-block w-fit border border-white/30 bg-transparent px-8 py-3.5 text-[13px] font-bold uppercase tracking-widest text-white transition-all duration-300 hover:border-gold-deep hover:bg-gold-deep hover:text-white sm:px-10 sm:py-4 sm:text-[14px]"
@@ -41,7 +40,6 @@ export default function CtaBand() {
                                 Are you a case manager or healthcare professional? We provide tailored specialist care across the UK.
                             </p>
                         </div>
-                        {/* custom button component */}
                         <Button
                             onClick={scrollToContact}
                             className="relative z-10 mt-12 inline-block w-fit border border-navy-deep/20 bg-transparent px-8 py-3.5 text-[13px] font-bold uppercase tracking-widest text-navy-deep transition-all duration-300 hover:border-navy-deep hover:bg-navy-deep hover:text-white sm:px-10 sm:py-4 sm:text-[14px]"
