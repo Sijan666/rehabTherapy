@@ -1,8 +1,8 @@
 import { Helmet } from "react-helmet-async";
 import Container from "../Container";
 import Image from "../Image";
-import { CtaBand } from "../layouts/TrustAndCta";
 import Contact from "../layouts/Contact";
+import CtaBand from "../layouts/CtaBand";
 
 const servicesList = [
   {
@@ -192,7 +192,7 @@ const Service = () => {
             </div>
           </Container>
         </section>
-        <CtaBand />
+        <CtaBand/>
         <Contact />
       </main>
     </>
