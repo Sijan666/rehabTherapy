@@ -17,14 +17,14 @@ const LOGOS = [
 
 export default function AccreditationLogos() {
   return (
-    <div className="mt-8 flex flex-wrap items-center justify-center gap-4 sm:mt-10 md:gap-8">
+    <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
       {LOGOS.map((logo, index) => (
         <div
           key={`logo-${index}`}
-          className="flex h-20 items-center justify-center rounded-md bg-white px-4 py-2 shadow-sm transition hover:shadow-md"
+          className="group flex h-24 w-36 items-center justify-center rounded-2xl bg-white p-4 shadow-sm ring-1 ring-slate-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:ring-teal-500/30 sm:h-28 sm:w-44"
         >
           <Image
-            className="max-h-12 w-auto object-contain sm:max-h-14"
+            className="max-h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105 sm:max-h-16"
             imgSrc={logo.src}
             alt={logo.alt}
           />
