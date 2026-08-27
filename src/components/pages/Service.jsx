@@ -140,7 +140,6 @@ const Service = () => {
               <p className="mt-6 max-w-lg text-base font-light leading-relaxed text-white/80 md:text-lg">
                 From stroke to elderly rehab — expert physio care at your home.
               </p>
-
               <a
                 href="#contact-section"
                 className="mt-10 inline-block rounded-full bg-gold px-8 py-4 text-[13px] font-bold uppercase tracking-widest text-white shadow-lg transition-all duration-300 hover:-translate-y-0.5 hover:bg-gold-deep hover:shadow-xl sm:text-[14px]"
@@ -148,7 +147,6 @@ const Service = () => {
                 book your free consultation today!
               </a>
             </div>
-
             <div className="mx-auto w-full max-w-md">
               <Image
                 imgSrc="https://rehabtherapist.co.uk/wp-content/uploads/2025/08/service-2-1024x1024.png"
@@ -158,7 +156,6 @@ const Service = () => {
             </div>
           </Container>
         </section>
-
         {/* services grid */}
         <section className="bg-white py-16 md:py-24">
           <Container>
@@ -182,7 +179,6 @@ const Service = () => {
                     <p className="mt-3 flex-1 text-sm leading-relaxed text-navy-deep/70">
                       {service.description}
                     </p>
-
                     <a
                       href="#"
                       onClick={(e) => e.preventDefault()}
@@ -196,7 +192,6 @@ const Service = () => {
             </div>
           </Container>
         </section>
-
         <CtaBand />
         <Contact />
       </main>
