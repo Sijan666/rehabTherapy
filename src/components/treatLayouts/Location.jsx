@@ -22,18 +22,16 @@ const Location = () => {
         <div className="max-w-6xl mx-auto text-center">
           {/* Sub-header Badge */}
           <div className="inline-flex items-center gap-3 mb-3">
-            <span className="h-[1px] w-8 bg-[#C68B45]"></span>
+            <span className="h-px w-8 bg-[#C68B45]"></span>
             <span className="text-[#C68B45] uppercase tracking-widest text-xs sm:text-sm font-semibold">
               Our Coverage
             </span>
-            <span className="h-[1px] w-8 bg-[#C68B45]"></span>
+            <span className="h-px w-8 bg-[#C68B45]"></span>
           </div>
-
           {/* Section Header */}
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0F2D2A] uppercase tracking-wide mb-12">
             Areas We Serve
           </h2>
-
           {/* Locations Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-5xl mx-auto mb-14 text-left">
             {locations.map((location, index) => (
@@ -41,7 +39,7 @@ const Location = () => {
                 key={index}
                 className="flex items-center gap-3 bg-[#F2F4F4]/60 p-4 rounded-xl border border-[#EBEBEB] hover:border-[#C68B45]/40 hover:bg-white hover:shadow-md transition-all duration-300"
               >
-                <div className="w-8 h-8 rounded-lg bg-white flex items-center justify-center text-[#C68B45] shadow-xs flex-shrink-0">
+                <div className="w-8 h-8 rounded-lg bg-white flex items-center justify-center text-[#C68B45] shadow-xs shrink-0">
                   <MapPin className="w-4 h-4" />
                 </div>
                 <span className="text-[#0F2D2A] text-base font-medium">
@@ -50,7 +48,6 @@ const Location = () => {
               </div>
             ))}
           </div>
-
           {/* Explore More Button */}
           <div>
             <button className="border-2 border-[#0F2D2A] text-[#0F2D2A] hover:bg-[#0F2D2A] hover:text-white font-semibold text-base px-8 py-3.5 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md active:scale-95">
