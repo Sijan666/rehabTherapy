@@ -18,7 +18,7 @@ const Location = () => {
   return (
     <div className="font-sans">
       {/* AREAS WE SERVE SECTION */}
-      <section className="bg-white py-20 px-4 sm:px-6 lg:px-8">
+      <section className="bg-[#F8F7F2] py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto text-center">
           {/* Sub-header Badge */}
           <div className="inline-flex items-center gap-3 mb-3">
@@ -37,9 +37,9 @@ const Location = () => {
             {locations.map((location, index) => (
               <div
                 key={index}
-                className="flex items-center gap-3 bg-[#F2F4F4]/60 p-4 rounded-xl border border-[#EBEBEB] hover:border-[#C68B45]/40 hover:bg-white hover:shadow-md transition-all duration-300"
+                className="flex items-center gap-3 bg-white rounded-xl p-4 border border-[#0F2D2A]/5 hover:border-[#C68B45]/40 shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer"
               >
-                <div className="w-8 h-8 rounded-lg bg-white flex items-center justify-center text-[#C68B45] shadow-xs shrink-0">
+                <div className="w-8 h-8 rounded-lg bg-[#F8F7F2] flex items-center justify-center text-[#C68B45] border border-[#C68B45]/20 flex-shrink-0 group-hover:bg-[#0F2D2A] group-hover:text-[#C68B45] transition-colors duration-300">
                   <MapPin className="w-4 h-4" />
                 </div>
                 <span className="text-[#0F2D2A] text-base font-medium">
@@ -50,7 +50,7 @@ const Location = () => {
           </div>
           {/* Explore More Button */}
           <div>
-            <button className="border-2 border-[#0F2D2A] text-[#0F2D2A] hover:bg-[#0F2D2A] hover:text-white font-semibold text-base px-8 py-3.5 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md active:scale-95">
+            <button className="bg-[#0F2D2A] hover:bg-[#112926] text-[#F8F7F2] font-semibold text-base px-8 py-3.5 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg active:scale-95 border border-[#C68B45]/30 focus:outline-none">
               Explore More Locations
             </button>
           </div>
@@ -61,3 +61,5 @@ const Location = () => {
 };
 
 export default Location;
+
+

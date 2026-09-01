@@ -3,6 +3,11 @@ import Banner from "../treatLayouts/Banner";
 import HomeVisite from "../treatLayouts/HomeVisite";
 import Location from "../treatLayouts/Location";
 import Book from "../treatLayouts/Book";
+import Raffer from "../treatLayouts/Raffer";
+import Schedule from "../treatLayouts/Schedule";
+import TalkDoctor from "../treatLayouts/TalkDoctor";
+import Testimonial from "../treatLayouts/Testimonial";
+import WhyChoose from "../treatLayouts/WhyChoose";
 
 const Treat = () => {
   return (
@@ -17,8 +22,13 @@ const Treat = () => {
       <main>
         <Banner />
         <HomeVisite />
+        <Schedule />
+        <TalkDoctor />
+        <WhyChoose />
+        <Testimonial />
         <Location />
         <Book />
+        <Raffer />
       </main>
     </>
   );
