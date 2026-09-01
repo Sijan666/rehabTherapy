@@ -22,13 +22,13 @@ const Treat = () => {
       <main>
         <Banner />
         <HomeVisite />
+        <Schedule />
+        <TalkDoctor />
+        <WhyChoose />
+        <Testimonial />
         <Location />
         <Book />
         <Raffer />
-        <Schedule />
-        <TalkDoctor />
-        <Testimonial />
-        <WhyChoose />
       </main>
     </>
   );
