@@ -5,6 +5,7 @@ import Location from "../treatLayouts/Location";
 import Book from "../treatLayouts/Book";
 import Raffer from "../treatLayouts/Raffer";
 import Schedule from "../treatLayouts/Schedule";
+import TalkDoctor from "../treatLayouts/TalkDoctor";
 
 const Treat = () => {
   return (
@@ -23,6 +24,7 @@ const Treat = () => {
         <Book />
         <Raffer />
         <Schedule />
+        <TalkDoctor />
       </main>
     </>
   );
