@@ -7,7 +7,7 @@ import Raffer from "../treatLayouts/Raffer";
 import Schedule from "../treatLayouts/Schedule";
 import TalkDoctor from "../treatLayouts/TalkDoctor";
 import Testimonial from "../treatLayouts/Testimonial";
-import WhyChoose from "../layouts/WhyChoose";
+import WhyChoose from "../treatLayouts/WhyChoose";
 
 const Treat = () => {
   return (
