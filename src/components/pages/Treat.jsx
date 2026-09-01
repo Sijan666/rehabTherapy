@@ -7,6 +7,7 @@ import Raffer from "../treatLayouts/Raffer";
 import Schedule from "../treatLayouts/Schedule";
 import TalkDoctor from "../treatLayouts/TalkDoctor";
 import Testimonial from "../treatLayouts/Testimonial";
+import WhyChoose from "../layouts/WhyChoose";
 
 const Treat = () => {
   return (
@@ -27,6 +28,7 @@ const Treat = () => {
         <Schedule />
         <TalkDoctor />
         <Testimonial />
+        <WhyChoose />
       </main>
     </>
   );
