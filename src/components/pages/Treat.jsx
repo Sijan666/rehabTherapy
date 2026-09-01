@@ -3,6 +3,7 @@ import Banner from "../treatLayouts/Banner";
 import HomeVisite from "../treatLayouts/HomeVisite";
 import Location from "../treatLayouts/Location";
 import Book from "../treatLayouts/Book";
+import Raffer from "../treatLayouts/Raffer";
 
 const Treat = () => {
   return (
@@ -19,6 +20,7 @@ const Treat = () => {
         <HomeVisite />
         <Location />
         <Book />
+        <Raffer />
       </main>
     </>
   );
