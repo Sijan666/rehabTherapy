@@ -6,6 +6,7 @@ import Book from "../treatLayouts/Book";
 import Raffer from "../treatLayouts/Raffer";
 import Schedule from "../treatLayouts/Schedule";
 import TalkDoctor from "../treatLayouts/TalkDoctor";
+import Testimonial from "../treatLayouts/Testimonial";
 
 const Treat = () => {
   return (
@@ -25,6 +26,7 @@ const Treat = () => {
         <Raffer />
         <Schedule />
         <TalkDoctor />
+        <Testimonial />
       </main>
     </>
   );
