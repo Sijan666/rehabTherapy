@@ -47,7 +47,7 @@ const Testimonial = () => {
           <span className="text-[#C68B45] text-xs sm:text-sm font-semibold tracking-widest uppercase">
             Real Stories
           </span>
-          <div className="w-10 h-[2px] bg-[#C68B45] mt-1.5 rounded-full"></div>
+          <div className="w-10 h-0.5 bg-[#C68B45] mt-1.5 rounded-full"></div>
         </div>
 
         {/* Section Header Title */}
@@ -134,7 +134,7 @@ const Testimonial = () => {
             />
             <div className="absolute inset-0 bg-[#0F2D2A]/30 group-hover:bg-[#0F2D2A]/20 transition-colors flex flex-col items-center justify-center p-6 text-center">
               <div className="bg-white/95 backdrop-blur-md border border-[#EBEBEB] text-[#0F2D2A] px-5 py-3.5 rounded-xl text-xs sm:text-sm font-medium shadow-md max-w-xs flex items-center gap-3 group-hover:scale-105 transition-transform">
-                <div className="w-8 h-8 rounded-full bg-[#C68B45] flex items-center justify-center text-white flex-shrink-0">
+                <div className="w-8 h-8 rounded-full bg-[#C68B45] flex items-center justify-center text-white shrink-0">
                   <Play className="w-4 h-4 fill-current ml-0.5" />
                 </div>
                 <span className="text-left font-medium">
