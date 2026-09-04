@@ -37,7 +37,7 @@ export default function AccreditationCtaSection() {
         {/* Action Callout Cards */}
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           {/* Card 1: Patients / Loved Ones */}
-          <div className="group relative min-h-[320px] overflow-hidden rounded-3xl bg-[#0F2D2A] shadow-lg ring-1 ring-[#0F2D2A]/10 sm:min-h-[360px] border border-[#0F2D2A]/20">
+          <div className="relative min-h-[320px] overflow-hidden rounded-3xl bg-[#0F2D2A] shadow-lg ring-1 ring-[#0F2D2A]/10 sm:min-h-[360px] border border-[#0F2D2A]/20">
             <img
               src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=800&q=80"
               alt="Need support for yourself"
@@ -68,7 +68,7 @@ export default function AccreditationCtaSection() {
           </div>
 
           {/* Card 2: Case Managers / Professionals */}
-          <div className="group relative min-h-[320px] overflow-hidden rounded-3xl bg-[#0F2D2A] shadow-lg ring-1 ring-[#0F2D2A]/10 sm:min-h-[360px] border border-[#0F2D2A]/20">
+          <div className="relative min-h-[320px] overflow-hidden rounded-3xl bg-[#0F2D2A] shadow-lg ring-1 ring-[#0F2D2A]/10 sm:min-h-[360px] border border-[#0F2D2A]/20">
             <img
               src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80"
               alt="Case manager or professional"
