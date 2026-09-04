@@ -67,14 +67,14 @@ export default function CoreValuesSection() {
           {VALUES.map((item) => (
             <div
               key={item.id}
-              className="group relative flex flex-col overflow-hidden rounded-2xl bg-white p-3 shadow-sm border border-[#EBEBEB] transition-all duration-300 hover:-translate-y-1.5 hover:shadow-md hover:border-[#C68B45]/40 sm:flex-row sm:items-center"
+              className="group relative flex flex-col overflow-hidden rounded-2xl bg-white p-3 shadow-sm border border-[#EBEBEB] hover:shadow-md hover:border-[#C68B45]/40 sm:flex-row sm:items-center"
             >
               {/* Image Container */}
               <div className="relative h-48 w-full shrink-0 overflow-hidden rounded-xl bg-[#F2F4F4] sm:h-56 sm:w-5/12">
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                  className="h-full w-full object-cover"
                   loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0F2D2A]/40 via-transparent to-transparent opacity-60 sm:hidden" />
@@ -85,7 +85,7 @@ export default function CoreValuesSection() {
 
               {/* Text Body */}
               <div className="flex flex-1 flex-col justify-center p-5 sm:p-6 sm:pl-7">
-                <h3 className="text-xl font-bold uppercase tracking-wide text-[#0F2D2A] transition-colors duration-200 group-hover:text-[#C68B45]">
+                <h3 className="text-xl font-bold uppercase tracking-wide text-[#0F2D2A] group-hover:text-[#C68B45]">
                   {item.title}
                 </h3>
                 <p className="mt-3 text-sm leading-relaxed text-[#556061] sm:text-base">
