@@ -53,7 +53,7 @@ export default function TestimonialsSlider() {
           <span className="text-[#C68B45] text-xs sm:text-sm font-semibold tracking-widest uppercase">
             Patient Stories
           </span>
-          <div className="w-10 h-[2px] bg-[#C68B45] mt-1.5 rounded-full"></div>
+          <div className="w-10 h-0.5 bg-[#C68B45] mt-1.5 rounded-full"></div>
         </div>
 
         <h2 className="text-3xl font-extrabold tracking-tight text-[#0F2D2A] sm:text-4xl">
@@ -104,11 +104,11 @@ export default function TestimonialsSlider() {
             swiper.params.navigation.prevEl = prevRef.current;
             swiper.params.navigation.nextEl = nextRef.current;
           }}
-          className="!py-2"
+          className="py-2!"
         >
           {TESTIMONIALS.map((item) => (
             <SwiperSlide key={item.id}>
-              <div className="mx-auto flex h-[340px] w-full select-none flex-col justify-between rounded-2xl bg-white p-6 shadow-sm border border-[#EBEBEB] sm:h-[320px] sm:p-8">
+              <div className="mx-auto flex h-[340px] w-full select-none flex-col justify-between rounded-2xl bg-white p-6 shadow-sm border border-[#EBEBEB] sm:h-80 sm:p-8">
                 <div className="flex flex-col items-center space-y-3 text-center">
                   {/* Avatar Profile */}
                   <div className="relative">

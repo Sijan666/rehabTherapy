@@ -19,7 +19,7 @@ export default function MultidisciplinaryServices() {
             key={`service-${index}`}
             className="flex items-center gap-3 rounded-xl bg-white p-3.5 shadow-xs border border-[#EBEBEB] transition-all duration-300 hover:border-[#C68B45]/40"
           >
-            <span className="inline-block h-2.5 w-2.5 flex-shrink-0 rounded-full bg-[#C68B45]" />
+            <span className="inline-block h-2.5 w-2.5 shrink-0 rounded-full bg-[#C68B45]" />
             <span className="font-medium text-[#0F2D2A]">{service}</span>
           </li>
         ))}

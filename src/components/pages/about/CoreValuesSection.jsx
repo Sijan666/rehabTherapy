@@ -50,7 +50,7 @@ export default function CoreValuesSection() {
             <span className="text-[#C68B45] text-xs sm:text-sm font-semibold tracking-widest uppercase">
               Guiding Principles
             </span>
-            <div className="w-10 h-[2px] bg-[#C68B45] mt-1.5 rounded-full"></div>
+            <div className="w-10 h-0.5 bg-[#C68B45] mt-1.5 rounded-full"></div>
           </div>
 
           <h2 className="text-3xl font-extrabold tracking-tight text-[#0F2D2A] sm:text-4xl lg:text-5xl">
@@ -77,7 +77,7 @@ export default function CoreValuesSection() {
                   className="h-full w-full object-cover"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0F2D2A]/40 via-transparent to-transparent opacity-60 sm:hidden" />
+                <div className="absolute inset-0 bg-linear-to-t from-[#0F2D2A]/40 via-transparent to-transparent opacity-60 sm:hidden" />
                 <span className="absolute top-3 left-3 rounded-full bg-white/95 px-3 py-1 text-xs font-bold text-[#C68B45] shadow-xs backdrop-blur-md border border-[#EBEBEB]">
                   {item.id}
                 </span>

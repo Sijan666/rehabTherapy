@@ -12,7 +12,7 @@ export default function TeamSection() {
             <span className="text-[#C68B45] text-xs sm:text-sm font-semibold tracking-widest uppercase">
               Our Experts
             </span>
-            <div className="w-10 h-[2px] bg-[#C68B45] mt-1.5 rounded-full"></div>
+            <div className="w-10 h-0.5 bg-[#C68B45] mt-1.5 rounded-full"></div>
           </div>
 
           {/* Main Title */}

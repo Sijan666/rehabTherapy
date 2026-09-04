@@ -19,11 +19,11 @@ export default function AccreditationCtaSection() {
         {/* Title Header */}
         <div className="mx-auto max-w-2xl text-center space-y-3">
           <div className="inline-flex items-center gap-3 mb-1">
-            <span className="h-[1px] w-8 bg-[#C68B45]"></span>
+            <span className="h-px w-8 bg-[#C68B45]"></span>
             <span className="text-[#C68B45] uppercase tracking-widest text-xs font-semibold">
               Trusted & Accredited
             </span>
-            <span className="h-[1px] w-8 bg-[#C68B45]"></span>
+            <span className="h-px w-8 bg-[#C68B45]"></span>
           </div>
 
           <h2 className="text-2xl font-extrabold tracking-wide text-[#0F2D2A] sm:text-3xl md:text-4xl uppercase">
@@ -37,7 +37,7 @@ export default function AccreditationCtaSection() {
         {/* Action Callout Cards */}
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           {/* Card 1: Patients / Loved Ones */}
-          <div className="relative min-h-[320px] overflow-hidden rounded-3xl bg-[#0F2D2A] shadow-lg ring-1 ring-[#0F2D2A]/10 sm:min-h-[360px] border border-[#0F2D2A]/20">
+          <div className="relative min-h-80 overflow-hidden rounded-3xl bg-[#0F2D2A] shadow-lg ring-1 ring-[#0F2D2A]/10 sm:min-h-[360px] border border-[#0F2D2A]/20">
             <img
               src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=800&q=80"
               alt="Need support for yourself"
@@ -45,7 +45,7 @@ export default function AccreditationCtaSection() {
               loading="lazy"
             />
             {/* Dark Teal Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0F2D2A]/95 via-[#0F2D2A]/70 to-[#0F2D2A]/30" />
+            <div className="absolute inset-0 bg-linear-to-t from-[#0F2D2A]/95 via-[#0F2D2A]/70 to-[#0F2D2A]/30" />
 
             {/* Content Container */}
             <div className="absolute inset-0 flex flex-col justify-end p-6 text-center sm:p-10">
@@ -68,7 +68,7 @@ export default function AccreditationCtaSection() {
           </div>
 
           {/* Card 2: Case Managers / Professionals */}
-          <div className="relative min-h-[320px] overflow-hidden rounded-3xl bg-[#0F2D2A] shadow-lg ring-1 ring-[#0F2D2A]/10 sm:min-h-[360px] border border-[#0F2D2A]/20">
+          <div className="relative min-h-80 overflow-hidden rounded-3xl bg-[#0F2D2A] shadow-lg ring-1 ring-[#0F2D2A]/10 sm:min-h-[360px] border border-[#0F2D2A]/20">
             <img
               src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80"
               alt="Case manager or professional"
@@ -76,7 +76,7 @@ export default function AccreditationCtaSection() {
               loading="lazy"
             />
             {/* Dark Teal Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0F2D2A]/95 via-[#0F2D2A]/70 to-[#0F2D2A]/30" />
+            <div className="absolute inset-0 bg-linear-to-t from-[#0F2D2A]/95 via-[#0F2D2A]/70 to-[#0F2D2A]/30" />
 
             {/* Content Container */}
             <div className="absolute inset-0 flex flex-col justify-end p-6 text-center sm:p-10">

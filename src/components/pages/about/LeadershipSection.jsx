@@ -42,7 +42,7 @@ export default function LeadershipSection() {
             <span className="text-[#C68B45] text-xs sm:text-sm font-semibold tracking-widest uppercase">
               Leadership & Expertise
             </span>
-            <div className="w-10 h-[2px] bg-[#C68B45] mt-1.5 rounded-full"></div>
+            <div className="w-10 h-0.5 bg-[#C68B45] mt-1.5 rounded-full"></div>
           </div>
 
           <h2 className="text-3xl font-extrabold text-[#0F2D2A] sm:text-4xl lg:text-5xl">
@@ -64,7 +64,7 @@ export default function LeadershipSection() {
                   alt="Krishna Gundapudi - Clinical Director"
                   className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0F2D2A]/40 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-[#0F2D2A]/40 via-transparent to-transparent" />
               </div>
 
               {/* Key Highlights Badge List */}

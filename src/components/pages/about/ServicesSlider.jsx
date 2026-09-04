@@ -122,7 +122,7 @@ export default function ServicesSlider() {
               spaceBetween: 32,
             },
           }}
-          className="!py-4 overflow-visible"
+          className="py-4! overflow-visible"
         >
           {CARDS.map((card) => (
             <SwiperSlide key={card.id} className="h-auto">
@@ -137,7 +137,7 @@ export default function ServicesSlider() {
                   />
 
                   {/* Gradient Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#0F2D2A]/80 via-[#0F2D2A]/20 to-transparent opacity-60" />
+                  <div className="absolute inset-0 bg-linear-to-t from-[#0F2D2A]/80 via-[#0F2D2A]/20 to-transparent opacity-60" />
 
                   {/* ID Counter Badge */}
                   <span className="absolute left-4 top-4 rounded-full bg-white/95 px-3 py-1 text-xs font-bold text-[#C68B45] shadow-xs backdrop-blur-md border border-[#EBEBEB]">

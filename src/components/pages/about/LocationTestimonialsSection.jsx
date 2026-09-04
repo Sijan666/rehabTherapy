@@ -21,7 +21,7 @@ export default function LocationTestimonialsSection() {
               <span className="text-[#C68B45] text-xs sm:text-sm font-semibold tracking-widest uppercase">
                 Coverage & Reach
               </span>
-              <div className="w-10 h-[2px] bg-[#C68B45] mt-1.5 rounded-full"></div>
+              <div className="w-10 h-0.5 bg-[#C68B45] mt-1.5 rounded-full"></div>
             </div>
 
             <h2 className="text-3xl font-extrabold tracking-tight text-[#0F2D2A] sm:text-4xl">

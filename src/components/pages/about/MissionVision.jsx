@@ -40,7 +40,7 @@ export default function MissionVision() {
                   alt="Our Mission"
                   className="h-full w-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0F2D2A]/60 via-transparent to-transparent opacity-60" />
+                <div className="absolute inset-0 bg-linear-to-t from-[#0F2D2A]/60 via-transparent to-transparent opacity-60" />
               </div>
             </div>
           </div>
@@ -104,7 +104,7 @@ export default function MissionVision() {
             </p>
 
             {/* Highlight Banner */}
-            <div className="rounded-2xl border-l-4 border-[#C68B45] bg-white p-4 text-sm font-medium leading-relaxed text-[#0F2D2A] shadow-xs border-y border-r border-[#EBEBEB]">
+            <div className="rounded-2xl border-l-4 border-[#C68B45] bg-white p-4 text-sm font-medium leading-relaxed text-[#0F2D2A] shadow-xs border-y border-r ">
               Transforming patient outcomes through personalized home-based care
               models and modern evidence-led techniques.
             </div>
@@ -132,7 +132,7 @@ export default function MissionVision() {
                   alt="Our Vision"
                   className="h-full w-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0F2D2A]/60 via-transparent to-transparent opacity-60" />
+                <div className="absolute inset-0 bg-linear-to-t from-[#0F2D2A]/60 via-transparent to-transparent opacity-60" />
               </div>
             </div>
           </div>
