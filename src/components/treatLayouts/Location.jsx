@@ -22,11 +22,11 @@ const Location = () => {
         <div className="max-w-6xl mx-auto text-center">
           {/* Sub-header Badge */}
           <div className="inline-flex items-center gap-3 mb-3">
-            <span className="h-[1px] w-8 bg-[#C68B45]"></span>
+            <span className="h-px w-8 bg-[#C68B45]"></span>
             <span className="text-[#C68B45] uppercase tracking-widest text-xs sm:text-sm font-semibold">
               Our Coverage
             </span>
-            <span className="h-[1px] w-8 bg-[#C68B45]"></span>
+            <span className="h-px w-8 bg-[#C68B45]"></span>
           </div>
 
           {/* Section Header */}
@@ -41,7 +41,7 @@ const Location = () => {
                 key={index}
                 className="flex items-center gap-3 bg-white rounded-xl p-4 border border-[#0F2D2A]/5 hover:border-[#C68B45]/40 shadow-sm hover:shadow-md transition-all duration-300 group cursor-pointer"
               >
-                <div className="w-8 h-8 rounded-lg bg-[#F8F7F2] flex items-center justify-center text-[#C68B45] border border-[#C68B45]/20 flex-shrink-0 group-hover:bg-[#0F2D2A] group-hover:text-[#C68B45] transition-colors duration-300">
+                <div className="w-8 h-8 rounded-lg bg-[#F8F7F2] flex items-center justify-center text-[#C68B45] border border-[#C68B45]/20 shrink-0 group-hover:bg-[#0F2D2A] group-hover:text-[#C68B45] transition-colors duration-300">
                   <MapPin className="w-4 h-4" />
                 </div>
                 <span className="text-[#0F2D2A] text-base font-medium">
@@ -64,5 +64,3 @@ const Location = () => {
 };
 
 export default Location;
-
-

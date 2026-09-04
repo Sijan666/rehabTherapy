@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <section className="relative min-h-[550px] bg-gradient-to-br from-[#0F2D2A] via-[#163A35] to-[#0F2D2A] overflow-hidden flex items-center px-6 lg:px-16 py-20">
+    <section className="relative min-h-[550px] bg-linear-to-br from-[#0F2D2A] via-[#163A35] to-[#0F2D2A] overflow-hidden flex items-center px-6 lg:px-16 py-20">
       {/* Background Overlay & Texture */}
       <div className="absolute inset-0 z-0">
         <img
@@ -10,7 +10,7 @@ const Banner = () => {
           alt="Physiotherapist assisting senior patient at home"
           className="w-full h-full object-cover object-center opacity-25"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0F2D2A] via-[#0F2D2A]/95 to-[#163A35]/80 mix-blend-multiply" />
+        <div className="absolute inset-0 bg-linear-to-r from-[#0F2D2A] via-[#0F2D2A]/95 to-[#163A35]/80 mix-blend-multiply" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 items-center gap-12">
@@ -18,7 +18,7 @@ const Banner = () => {
         <div className="lg:col-span-7 space-y-4">
           {/* Eyebrow Label with Amber Gold Accent Line */}
           <div className="flex items-center gap-3 text-xs font-bold uppercase tracking-widest text-[#C68B45]">
-            <span className="w-8 h-[2px] bg-[#C68B45]" />
+            <span className="w-8 h-0.5 bg-[#C68B45]" />
             <span>Clinical Director Approved</span>
           </div>
 
@@ -43,7 +43,7 @@ const Banner = () => {
                 Years Experience
               </div>
             </div>
-            <div className="h-8 w-[1px] bg-white/10" />
+            <div className="h-8 w-px bg-white/10" />
             <div>
               <div className="font-serif text-3xl font-bold text-[#C68B45]">
                 UK

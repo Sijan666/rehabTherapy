@@ -4,9 +4,8 @@ const Raffer = () => {
   return (
     <section className="bg-[#F8F7F2] py-16 px-4 sm:px-6 lg:px-8 font-sans">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-        
         {/* Left Card: Personal Support */}
-        <div className="relative rounded-2xl overflow-hidden min-h-[280px] md:min-h-[320px] flex items-center justify-center shadow-md hover:shadow-xl transition-all duration-300 border border-[#0F2D2A]/10 group">
+        <div className="relative rounded-2xl overflow-hidden min-h-[280px] md:min-h-80 flex items-center justify-center shadow-md hover:shadow-xl transition-all duration-300 border border-[#0F2D2A]/10 group">
           {/* Background Image */}
           <img
             src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&q=80&w=800"
@@ -14,7 +13,7 @@ const Raffer = () => {
             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
           />
           {/* Custom Dark Teal Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0F2D2A]/90 via-[#0F2D2A]/75 to-[#0F2D2A]/60 transition-opacity duration-300"></div>
+          <div className="absolute inset-0 bg-linear-to-t from-[#0F2D2A]/90 via-[#0F2D2A]/75 to-[#0F2D2A]/60 transition-opacity duration-300"></div>
 
           {/* Content */}
           <div className="relative z-10 p-6 sm:p-8 text-center flex flex-col items-center justify-center max-w-md">
@@ -31,7 +30,7 @@ const Raffer = () => {
         </div>
 
         {/* Right Card: Professional Referral */}
-        <div className="relative rounded-2xl overflow-hidden min-h-[280px] md:min-h-[320px] flex items-center justify-center shadow-md hover:shadow-xl transition-all duration-300 border border-[#0F2D2A]/10 group">
+        <div className="relative rounded-2xl overflow-hidden min-h-[280px] md:min-h-80 flex items-center justify-center shadow-md hover:shadow-xl transition-all duration-300 border border-[#0F2D2A]/10 group">
           {/* Background Image */}
           <img
             src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&q=80&w=800"
@@ -39,7 +38,7 @@ const Raffer = () => {
             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
           />
           {/* Custom Dark Teal Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0F2D2A]/90 via-[#0F2D2A]/75 to-[#0F2D2A]/60 transition-opacity duration-300"></div>
+          <div className="absolute inset-0 bg-linear-to-t from-[#0F2D2A]/90 via-[#0F2D2A]/75 to-[#0F2D2A]/60 transition-opacity duration-300"></div>
 
           {/* Content */}
           <div className="relative z-10 p-6 sm:p-8 text-center flex flex-col items-center justify-center max-w-md">
@@ -54,7 +53,6 @@ const Raffer = () => {
             </button>
           </div>
         </div>
-
       </div>
     </section>
   );

@@ -40,14 +40,13 @@ const Schedule = () => {
   return (
     <section className="bg-[#F8F7F2] py-20 px-4 sm:px-6 lg:px-8 font-sans">
       <div className="max-w-6xl mx-auto text-center">
-        
         {/* Sub-header Badge */}
         <div className="inline-flex items-center gap-3 mb-3">
-          <span className="h-[1px] w-8 bg-[#C68B45]"></span>
+          <span className="h-px w-8 bg-[#C68B45]"></span>
           <span className="text-[#C68B45] uppercase tracking-widest text-xs font-semibold">
             Specialist Care
           </span>
-          <span className="h-[1px] w-8 bg-[#C68B45]"></span>
+          <span className="h-px w-8 bg-[#C68B45]"></span>
         </div>
 
         {/* Header Title */}
