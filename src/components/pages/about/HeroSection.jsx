@@ -17,11 +17,11 @@ export default function HeroSection() {
           <div className="flex flex-col items-start space-y-5 sm:space-y-6">
             {/* Sub-header Badge */}
             <div className="inline-flex items-center gap-3 mb-1">
-              <span className="h-[1px] w-8 bg-[#C68B45]"></span>
+              <span className="h-px w-8 bg-[#C68B45]"></span>
               <span className="text-[#C68B45] uppercase tracking-widest text-xs font-semibold">
                 Professional Home Care
               </span>
-              <span className="h-[1px] w-8 bg-[#C68B45]"></span>
+              <span className="h-px w-8 bg-[#C68B45]"></span>
             </div>
 
             <h1 className="text-3xl font-extrabold uppercase leading-tight tracking-wide sm:text-4xl md:text-5xl text-white">
@@ -37,7 +37,7 @@ export default function HeroSection() {
             </p>
 
             <div className="pt-2">
-              <Button className="cursor-pointer rounded-lg bg-[#C68B45] hover:bg-[#B37A38] px-7 py-3.5 text-base font-bold text-white shadow-md hover:shadow-lg border border-[#C68B45]/30 focus:outline-none focus:ring-2 focus:ring-[#C68B45] focus:ring-offset-2 sm:px-9 sm:py-4">
+              <Button className="cursor-pointer rounded-lg bg-[#C68B45] hover:bg-[#B37A38] px-7 py-3.5 text-base font-bold text-white shadow-md border border-[#C68B45]/30 focus:outline-none focus:ring-2 focus:ring-[#C68B45] focus:ring-offset-2 sm:px-9 sm:py-4">
                 Book A Home Visit
               </Button>
             </div>
@@ -45,12 +45,12 @@ export default function HeroSection() {
 
           {/* Right Image Container */}
           <div className="relative flex justify-center lg:justify-end">
-            <div className="group relative w-full max-w-md overflow-hidden rounded-2xl bg-white/5 p-2 shadow-2xl backdrop-blur-md ring-1 ring-[#C68B45]/20 transition-all duration-500 hover:shadow-[#C68B45]/10 lg:max-w-none">
+            <div className="relative w-full max-w-md overflow-hidden rounded-2xl bg-white/5 p-2 shadow-2xl backdrop-blur-md ring-1 ring-[#C68B45]/20 lg:max-w-none">
               <div className="overflow-hidden rounded-xl">
                 <Image
                   imgSrc={aboutBanner}
                   alt="Home Physiotherapy Care"
-                  className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                  className="h-full w-full object-cover"
                 />
               </div>
             </div>
