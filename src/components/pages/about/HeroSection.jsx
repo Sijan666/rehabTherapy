@@ -6,11 +6,10 @@ import Image from "@/components/Image";
 
 export default function HeroSection() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-r from-[#005f5B] via-[#00746F] to-[#008B84] text-white">
+    <section className="relative overflow-hidden bg-linear-to-r from-[#005f5B] via-[#00746F] to-[#008B84] text-white">
       {/*  Background  */}
       <div className="pointer-events-none absolute -left-20 -top-20 h-96 w-96 rounded-full bg-teal-400/20 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-20 -right-20 h-96 w-96 rounded-full bg-teal-300/15 blur-3xl" />
-
       <Container>
         <div className="relative z-10 grid grid-cols-1 items-center gap-8 py-12 md:grid-cols-2 md:gap-12 lg:py-20">
           {/* Left Text Content */}
@@ -26,12 +25,11 @@ export default function HeroSection() {
               managers, and GPs.
             </p>
             <div className="pt-2">
-              <Button className="rounded-xl !bg-[#00A499] px-7 py-3.5 text-base font-bold text-white shadow-lg shadow-teal-950/30 transition-all duration-300 hover:!bg-[#008B82] hover:shadow-xl hover:shadow-teal-950/40 focus:outline-none focus:ring-2 focus:ring-[#00A499] focus:ring-offset-2 active:scale-95 sm:px-9 sm:py-4">
+              <Button className="rounded-xl bg-[#00A499]! px-7 py-3.5 text-base font-bold text-white shadow-lg shadow-teal-950/30 transition-all duration-300 hover:bg-[#008B82]! hover:shadow-xl hover:shadow-teal-950/40 focus:outline-none focus:ring-2 focus:ring-[#00A499] focus:ring-offset-2 active:scale-95 sm:px-9 sm:py-4">
                 Book A Home Visit
               </Button>
             </div>
           </div>
-
           {/* Right Image Container */}
           <div className="relative flex justify-center lg:justify-end">
             <div className="group relative w-full max-w-md overflow-hidden rounded-2xl bg-white/10 p-2 shadow-2xl backdrop-blur-md ring-1 ring-white/20 transition-all duration-500 hover:shadow-teal-950/50 lg:max-w-none">
