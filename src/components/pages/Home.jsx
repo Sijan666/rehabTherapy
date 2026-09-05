@@ -8,8 +8,10 @@ import Services from "../layouts/Services";
 import Conditions from "../layouts/Conditions";
 import Journey from "../layouts/Journey";
 import Testimonials from "../layouts/Testimonials";
-import { CtaBand, News, Trust } from "../layouts/TrustAndCta";
 import Contact from "../layouts/Contact";
+import Trust from "../layouts/Trust";
+import CtaBand from "../layouts/CtaBand";
+import News from "../layouts/News";
 
 const Home = () => {
   return (
