@@ -16,31 +16,31 @@ export default function Services() {
           </h2>
         </div>
         <div className="mt-10 flex flex-wrap justify-center gap-3">
-          <a href="#services" className="cursor-pointer border border-navy-deep/10 bg-transparent px-5 py-2 text-xs font-bold text-navy-deep transition-colors duration-300 hover:border-navy-deep hover:bg-navy-deep hover:text-white">
+          <a href="#" className="cursor-pointer border border-navy-deep/10 bg-transparent px-5 py-2 text-xs font-bold text-navy-deep transition-colors duration-300 hover:border-navy-deep hover:bg-navy-deep hover:text-white">
             Home Visits
           </a>
-          <a href="#services" className="cursor-pointer border border-navy-deep/10 bg-transparent px-5 py-2 text-xs font-bold text-navy-deep transition-colors duration-300 hover:border-navy-deep hover:bg-navy-deep hover:text-white">
+          <a href="#" className="cursor-pointer border border-navy-deep/10 bg-transparent px-5 py-2 text-xs font-bold text-navy-deep transition-colors duration-300 hover:border-navy-deep hover:bg-navy-deep hover:text-white">
             Neurological Physiotherapy
           </a>
-          <a href="#services" className="cursor-pointer border border-navy-deep/10 bg-transparent px-5 py-2 text-xs font-bold text-navy-deep transition-colors duration-300 hover:border-navy-deep hover:bg-navy-deep hover:text-white">
+          <a href="#" className="cursor-pointer border border-navy-deep/10 bg-transparent px-5 py-2 text-xs font-bold text-navy-deep transition-colors duration-300 hover:border-navy-deep hover:bg-navy-deep hover:text-white">
             Intensive Rehabilitation
           </a>
-          <a href="#services" className="cursor-pointer border border-navy-deep/10 bg-transparent px-5 py-2 text-xs font-bold text-navy-deep transition-colors duration-300 hover:border-navy-deep hover:bg-navy-deep hover:text-white">
+          <a href="#" className="cursor-pointer border border-navy-deep/10 bg-transparent px-5 py-2 text-xs font-bold text-navy-deep transition-colors duration-300 hover:border-navy-deep hover:bg-navy-deep hover:text-white">
             Case Managers
           </a>
-          <a href="#services" className="cursor-pointer border border-navy-deep/10 bg-transparent px-5 py-2 text-xs font-bold text-navy-deep transition-colors duration-300 hover:border-navy-deep hover:bg-navy-deep hover:text-white">
+          <a href="#" className="cursor-pointer border border-navy-deep/10 bg-transparent px-5 py-2 text-xs font-bold text-navy-deep transition-colors duration-300 hover:border-navy-deep hover:bg-navy-deep hover:text-white">
             Elderly Physiotherapy
           </a>
-          <a href="#services" className="cursor-pointer border border-navy-deep/10 bg-transparent px-5 py-2 text-xs font-bold text-navy-deep transition-colors duration-300 hover:border-navy-deep hover:bg-navy-deep hover:text-white">
+          <a href="#" className="cursor-pointer border border-navy-deep/10 bg-transparent px-5 py-2 text-xs font-bold text-navy-deep transition-colors duration-300 hover:border-navy-deep hover:bg-navy-deep hover:text-white">
             Post-Operative Physiotherapy
           </a>
-          <a href="#services" className="cursor-pointer border border-navy-deep/10 bg-transparent px-5 py-2 text-xs font-bold text-navy-deep transition-colors duration-300 hover:border-navy-deep hover:bg-navy-deep hover:text-white">
+          <a href="#" className="cursor-pointer border border-navy-deep/10 bg-transparent px-5 py-2 text-xs font-bold text-navy-deep transition-colors duration-300 hover:border-navy-deep hover:bg-navy-deep hover:text-white">
             Hydrotherapy
           </a>
-          <a href="#services" className="cursor-pointer border border-navy-deep/10 bg-transparent px-5 py-2 text-xs font-bold text-navy-deep transition-colors duration-300 hover:border-navy-deep hover:bg-navy-deep hover:text-white">
+          <a href="#" className="cursor-pointer border border-navy-deep/10 bg-transparent px-5 py-2 text-xs font-bold text-navy-deep transition-colors duration-300 hover:border-navy-deep hover:bg-navy-deep hover:text-white">
             Falls Prevention & Rehab
           </a>
-          <a href="#services" className="cursor-pointer border border-navy-deep/10 bg-transparent px-5 py-2 text-xs font-bold text-navy-deep transition-colors duration-300 hover:border-navy-deep hover:bg-navy-deep hover:text-white">
+          <a href="#" className="cursor-pointer border border-navy-deep/10 bg-transparent px-5 py-2 text-xs font-bold text-navy-deep transition-colors duration-300 hover:border-navy-deep hover:bg-navy-deep hover:text-white">
             Care Homes
           </a>
         </div>
@@ -58,7 +58,7 @@ export default function Services() {
               <h3 className="font-display text-xl font-medium text-navy-deep">
                 Rehab for Case Managers
               </h3>
-              <a href="https://rehabtherapist.co.uk/rehab-for-case-managers/" className="mt-4 inline-block cursor-pointer text-xs font-bold uppercase tracking-widest text-gold-deep transition-colors duration-300 hover:text-navy-deep">
+              <a href="" className="mt-4 inline-block cursor-pointer text-xs font-bold uppercase tracking-widest text-gold-deep transition-colors duration-300 hover:text-navy-deep">
                 learn more &rarr;
               </a>
             </div>
@@ -76,7 +76,7 @@ export default function Services() {
               <h3 className="font-display text-xl font-medium text-navy-deep">
                 Neurological Physiotherapy
               </h3>
-              <a href="https://rehabtherapist.co.uk/neurological-physiotherapy/" className="mt-4 inline-block cursor-pointer text-xs font-bold uppercase tracking-widest text-gold-deep transition-colors duration-300 hover:text-navy-deep">
+              <a href="" className="mt-4 inline-block cursor-pointer text-xs font-bold uppercase tracking-widest text-gold-deep transition-colors duration-300 hover:text-navy-deep">
                 learn more &rarr;
               </a>
             </div>
@@ -94,7 +94,7 @@ export default function Services() {
               <h3 className="font-display text-xl font-medium text-navy-deep">
                 Elderly Rehabilitation
               </h3>
-              <a href="https://rehabtherapist.co.uk/elderly-rehabilitation/" className="mt-4 inline-block cursor-pointer text-xs font-bold uppercase tracking-widest text-gold-deep transition-colors duration-300 hover:text-navy-deep">
+              <a href="" className="mt-4 inline-block cursor-pointer text-xs font-bold uppercase tracking-widest text-gold-deep transition-colors duration-300 hover:text-navy-deep">
                 learn more &rarr;
               </a>
             </div>
@@ -112,7 +112,7 @@ export default function Services() {
               <h3 className="font-display text-xl font-medium text-navy-deep">
                 Post-operative Physiotherapy
               </h3>
-              <a href="https://rehabtherapist.co.uk/post-operative-physiotherapy/" className="mt-4 inline-block cursor-pointer text-xs font-bold uppercase tracking-widest text-gold-deep transition-colors duration-300 hover:text-navy-deep">
+              <a href="" className="mt-4 inline-block cursor-pointer text-xs font-bold uppercase tracking-widest text-gold-deep transition-colors duration-300 hover:text-navy-deep">
                 learn more &rarr;
               </a>
             </div>
@@ -130,7 +130,7 @@ export default function Services() {
               <h3 className="font-display text-xl font-medium text-navy-deep">
                 Complex Orthopaedic Rehab
               </h3>
-              <a href="https://rehabtherapist.co.uk/complex-orthopaedic-polytrauma-rehabilitation/" className="mt-4 inline-block cursor-pointer text-xs font-bold uppercase tracking-widest text-gold-deep transition-colors duration-300 hover:text-navy-deep">
+              <a href="" className="mt-4 inline-block cursor-pointer text-xs font-bold uppercase tracking-widest text-gold-deep transition-colors duration-300 hover:text-navy-deep">
                 learn more &rarr;
               </a>
             </div>
@@ -148,7 +148,7 @@ export default function Services() {
               <h3 className="font-display text-xl font-medium text-navy-deep">
                 Physiotherapy for Care Homes
               </h3>
-              <a href="https://rehabtherapist.co.uk/physiotherapy-for-care-homes/" className="mt-4 inline-block cursor-pointer text-xs font-bold uppercase tracking-widest text-gold-deep transition-colors duration-300 hover:text-navy-deep">
+              <a href="" className="mt-4 inline-block cursor-pointer text-xs font-bold uppercase tracking-widest text-gold-deep transition-colors duration-300 hover:text-navy-deep">
                 learn more &rarr;
               </a>
             </div>
@@ -157,7 +157,7 @@ export default function Services() {
         {/* cta action */}
         <div className="mt-12 text-center">
           <a
-            href="https://rehabtherapist.co.uk/services/"
+            href=""
             className="inline-block cursor-pointer border border-navy-deep bg-navy-deep px-8 py-3.5 text-sm font-bold uppercase tracking-widest text-white transition-colors duration-300 hover:bg-white hover:text-navy-deep"
           >
             explore more services
