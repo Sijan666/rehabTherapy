@@ -10,7 +10,7 @@ const heroSlides = [
         subtitle: "home-based neuro & elderly care",
         title: "Expert Stroke &\nNeurological Physiotherapy",
         description: "Your local neurological and elderly rehabilitation specialists, helping you regain your strength, independence and confidence.",
-        primaryAction: { label: "book a home visit", link: "#contact-section", external: false },
+        primaryAction: { label: "book a home visit", link: "#", external: false },
         secondaryAction: { label: "call 0330 551 3660", link: "tel:03305513660" },
     },
     {
@@ -19,7 +19,7 @@ const heroSlides = [
         subtitle: "trusted across the uk",
         title: "Physiotherapy\nDelivered by Specialists",
         description: "We come to you, so you can get back to YOU. Trusted by patients, families, case managers and GPs across the UK.",
-        primaryAction: { label: "request a call back", link: "#contact-section", external: false },
+        primaryAction: { label: "request a call back", link: "#", external: false },
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ const heroSlides = [
         subtitle: "private occupational therapy",
         title: "Private Occupational\nTherapy at Home",
         description: "Helping patients improve daily living skills, independence, confidence and safety, in the comfort of their own home.",
-        primaryAction: { label: "book a free consultation", link: "https://scheduler.zoom.us/krishna-gundapudi/phone_consultation", external: true },
+        primaryAction: { label: "book a free consultation", link: "#", external: true },
     },
 ];
 
