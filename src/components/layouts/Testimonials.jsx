@@ -93,7 +93,7 @@ export default function Testimonials() {
         {/* cta action */}
         <div className="mt-14 text-center">
           <a
-            href="https://rehabtherapist.co.uk/patient-feedback/"
+            href=""
             className="inline-block cursor-pointer border border-navy-deep bg-transparent px-10 py-4 text-sm font-bold uppercase tracking-widest text-navy-deep transition-colors duration-300 hover:bg-navy-deep hover:text-white"
           >
             view more reviews
