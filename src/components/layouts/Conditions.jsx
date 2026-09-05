@@ -3,14 +3,14 @@ import Image from "../Image";
 
 // conditions data array
 const CONDITIONS = [
-  { title: "Stroke", img: "https://rehabtherapist.co.uk/wp-content/uploads/2025/06/Stroke.png", href: "https://rehabtherapist.co.uk/stroke/" },
-  { title: "Brain Injury", img: "https://rehabtherapist.co.uk/wp-content/uploads/2025/06/Brain-Injury.png", href: "https://rehabtherapist.co.uk/brain-injury/" },
-  { title: "Multiple Sclerosis", img: "https://rehabtherapist.co.uk/wp-content/uploads/2025/06/Multiple-Sclerosis.png", href: "https://rehabtherapist.co.uk/multiple-sclerosis/" },
-  { title: "Parkinson's Disease", img: "https://rehabtherapist.co.uk/wp-content/uploads/2025/06/Parkinson.png", href: "https://rehabtherapist.co.uk/parkinsons-disease/" },
-  { title: "Balance Rehabilitation", img: "https://rehabtherapist.co.uk/wp-content/uploads/2025/06/Balance-rehab.png", href: "https://rehabtherapist.co.uk/balance-disorders-and-falls-prevention/" },
-  { title: "Spinal Cord Injury", img: "https://rehabtherapist.co.uk/wp-content/uploads/2025/06/Spinal-cord-injury.png", href: "https://rehabtherapist.co.uk/spinal-cord-injury/" },
-  { title: "Falls Prevention", img: "https://rehabtherapist.co.uk/wp-content/uploads/2025/06/falls-prevention.png", href: "https://rehabtherapist.co.uk/falls-prevention-and-rehabilitation/" },
-  { title: "Recovery After Surgery", img: "https://rehabtherapist.co.uk/wp-content/uploads/2025/06/postop-recovery.png", href: "https://rehabtherapist.co.uk/recovery-after-a-hospital-stay-or-surgery/" },
+  { title: "Stroke", img: "https://rehabtherapist.co.uk/wp-content/uploads/2025/06/Stroke.png", href: "" },
+  { title: "Brain Injury", img: "https://rehabtherapist.co.uk/wp-content/uploads/2025/06/Brain-Injury.png", href: "" },
+  { title: "Multiple Sclerosis", img: "https://rehabtherapist.co.uk/wp-content/uploads/2025/06/Multiple-Sclerosis.png", href: "" },
+  { title: "Parkinson's Disease", img: "https://rehabtherapist.co.uk/wp-content/uploads/2025/06/Parkinson.png", href: "" },
+  { title: "Balance Rehabilitation", img: "https://rehabtherapist.co.uk/wp-content/uploads/2025/06/Balance-rehab.png", href: "" },
+  { title: "Spinal Cord Injury", img: "https://rehabtherapist.co.uk/wp-content/uploads/2025/06/Spinal-cord-injury.png", href: "" },
+  { title: "Falls Prevention", img: "https://rehabtherapist.co.uk/wp-content/uploads/2025/06/falls-prevention.png", href: "" },
+  { title: "Recovery After Surgery", img: "https://rehabtherapist.co.uk/wp-content/uploads/2025/06/postop-recovery.png", href: "" },
 ];
 
 export default function Conditions() {
@@ -66,7 +66,7 @@ export default function Conditions() {
         {/* cta action */}
         <div className="mt-12 text-center">
           <a
-            href="https://rehabtherapist.co.uk/conditions-treated/"
+            href=""
             className="inline-block cursor-pointer border border-navy-deep bg-transparent px-8 py-3.5 text-sm font-bold uppercase tracking-widest text-navy-deep transition-colors duration-300 hover:bg-navy-deep hover:text-white"
           >
             more conditions

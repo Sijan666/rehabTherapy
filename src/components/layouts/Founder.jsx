@@ -44,7 +44,7 @@ export default function Founder() {
             </div>
             {/* cta button */}
             <a
-              href="https://rehabtherapist.co.uk/about-us/"
+              href=""
               aria-label="learn more about the founder"
               className="inline-block cursor-pointer bg-white px-10 py-4 text-sm font-bold uppercase tracking-widest text-navy-deep transition-colors duration-300 hover:bg-gold hover:text-white"
             >

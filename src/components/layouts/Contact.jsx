@@ -22,14 +22,14 @@ export default function Contact() {
           {/* action buttons */}
           <div className="mt-12 flex flex-wrap justify-center gap-6">
             <a
-              href="https://rehabtherapist.co.uk/book-free-rehabilitation-call/"
+              href=""
               aria-label="book a free consultation"
               className="inline-block cursor-pointer bg-gold px-10 py-4 text-xs font-bold uppercase tracking-widest text-navy-deep transition-colors duration-300 hover:bg-white hover:text-navy-deep"
             >
               book consultation
             </a>
             <a
-              href="https://wa.me/4407777999277"
+              href="https://wa.me/01828871277"
               aria-label="message us on whatsapp"
               className="inline-block cursor-pointer border border-white/30 bg-transparent px-10 py-4 text-xs font-bold uppercase tracking-widest text-white transition-colors duration-300 hover:border-gold hover:bg-gold hover:text-navy-deep"
             >
@@ -39,17 +39,17 @@ export default function Contact() {
           {/* contact info footer */}
           <div className="mt-16 flex w-full max-w-2xl flex-col items-center justify-center gap-4 border-t border-white/10 pt-8 sm:flex-row sm:gap-10">
             <a 
-              href="mailto:info@rehabtherapist.co.uk" 
+              href="" 
               className="text-sm font-light tracking-widest text-white/70 transition-colors duration-300 hover:text-gold"
             >
-              info@rehabtherapist.co.uk
+              info@rehabtherapist
             </a>
             <span aria-hidden="true" className="hidden h-1 w-1 rounded-full bg-gold/50 sm:block" />
             <a 
-              href="tel:03305513660" 
+              href="" 
               className="text-sm font-light tracking-widest text-white/70 transition-colors duration-300 hover:text-gold"
             >
-              0330 551 3660
+              {/* 0330 551 3660 */}
             </a>
           </div>
         </div>

@@ -24,7 +24,7 @@ export default function Coverage() {
             {/* cta button */}
             <div className="mt-10">
               <a
-                href="https://rehabtherapist.co.uk/locations/"
+                href=""
                 aria-label="find out more about our coverage areas"
                 className="inline-block cursor-pointer border border-navy-deep px-10 py-4 text-sm font-bold uppercase tracking-widest text-navy-deep transition-colors duration-300 hover:bg-navy-deep hover:text-white"
               >
